@@ -1,0 +1,465 @@
+
+/*固定設置*/
+
+
+body, header, ul, p ,hr, .type1, figure {
+  margin:0px;
+  padding:0px;
+}
+
+a {
+  text-decoration:none;
+}
+
+ul {
+  list-style:outside none none;
+}
+
+body{
+  background-color:white;
+
+}
+
+
+
+
+/*最上面廣告區塊*/
+
+#banner {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:330px;
+  background-color:	#e6e6e6;
+  position:absolute;
+  top:0;
+  /*background: url(https://c1.staticflickr.com/5/4570/37819371614_1749954c2b_z.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   background-image:url(https://c1.staticflickr.com/5/4527/24662240928_99c1e3f8e0_o.gif) ;*/
+  background-image:url(https://c1.staticflickr.com/5/4570/37819371614_1749954c2b_z.jpg) ;
+ 
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+/*主標題區塊*/
+
+#header {
+  height:70px;
+  width:100%;
+  background:#000;
+  position:absolute;
+  top:330px;
+}
+
+/*logo部分*/
+
+.logo{
+       width:200px;
+       float:left;
+       margin: 0 auto;
+       text-align:center;
+       background-color:#000;
+     }
+
+.logo-text {
+         color: white;
+         font-family: Lobster, Monospace;
+         margin: 20px auto;
+     }
+
+
+/*中間區塊部分*/
+
+.center{
+       width:1263px;
+       height:70px;
+       margin:0 auto;
+       background-color:#000;
+     }
+
+/*標題部分*/
+
+.title{
+       width:800px;
+       height:70px;
+       float:left;
+       margin: 0 auto;
+       text-align:center;
+       background-color:#000;
+     }
+
+.logo-text2 {
+         color: white;
+         font-family: ;
+         margin: 20px auto;
+     }
+
+
+/*搜尋引擎部分*/
+
+#header_two {
+  height:40px;
+  width:100%;
+  background:#135;
+  position:absolute;
+  top:400px;
+}
+
+
+
+#header_two .header_two_main{
+  width:800px;
+  height:40px;
+  margin:0 auto;
+  background:#135;  
+}
+
+
+#header_two  h1 {
+  margin:0;
+  padding:0 0 0 20px;
+  background:#135;
+  height:40px;
+  line-height:40px;
+  font-size:20px;
+  color:#fff;
+  float:left;  
+}
+
+
+#header_two .header_two_search {
+  float:left;
+  padding:6px 0 0 0;
+  background:#135;
+}
+
+#header_two .header_two_search .search {
+  width:550px;
+  height:24px;
+  border:1px solid #ccc;
+  background:#fff;
+  font-size:14px;
+  color:#fff;
+  text-indent:5px;
+  margin:0 0 0 60px;
+}
+
+#header_two .header_two_button {
+  float:left;
+  padding:5px;
+}
+
+#header_two .header_two_member {
+  float:right;
+  height:40px;
+  line-height:40px;
+  color:#fff;
+}
+
+#header_two .header_two_member a {
+  font-size:14px;
+  text-decoration:none;
+  color:#fff;
+}
+
+
+
+
+
+/*video*/
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+
+
+#video {
+  margin: 20px 0 20px 168px;
+}
+
+/*消失*/
+
+/*.toggler { 
+    width: 700px; 
+    height: 450px;
+    background-color:red;
+    position:relative;
+    top:500px;
+}*/
+
+#button { 
+    padding: .5em 1em; 
+    text-decoration: none; 
+     margin:0 0 60px 0px;
+}
+
+
+#effectTypes {
+    margin:0 0 50px 400px;
+}
+
+#effect { 
+  width: 1030px; 
+  height: 470px; 
+  padding: 0.4em; 
+  position: relative; 
+  top:490px;
+  margin: 0 auto;
+  background-color:	#FFA500;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+/* #effect h3 { 
+   margin: 0; 
+   padding: 0.4em; 
+   text-align: center; 
+}*/
+
+/* 以上都是影片效果部分*/
+
+
+
+
+/*主要背景部份*/
+
+body {
+  margin:0px;
+  padding:0px;
+  font-size:12px;
+  margin:0　auto;
+  background:#FFFAF0;
+}
+
+/*主要內容區塊*/
+
+
+
+#main{
+  width:1050px;
+  height:1000px;
+  background-color:black;
+  margin:0px auto; 
+  text-align:center;
+  position:relative;
+  top:520px;
+}
+
+#main_center{
+  width:71.42%;
+  height:1000px;
+  background-color:#eee;
+  float:left;
+  margin: 0 auto;
+  text-align:center;
+}
+
+
+
+#tabs {
+  width:99%;
+  margin: 0 auto;
+}
+
+/*右側內容區塊*/
+
+#main_right {
+  width:300PX;
+  height:1000px;
+  background-color:	#FFE4C4;
+  float:right;
+  margin: 0 auto;
+}
+
+#icon {
+  width:280px;
+  height:300px;
+  background-color:	#FFE4C4;
+  background-image:url(https://c1.staticflickr.com/5/4527/24662240928_99c1e3f8e0_o.gif) ;
+  background-repeat:no-repeat;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+
+}
+
+
+#accordion {
+  width : 90%;
+  margin: 0 auto;
+}
+
+#datepicker {
+   margin: 20px  0px 20px 30px;
+}
+
+/*尾部*/
+
+footer{
+  width:100%;
+  height:100px;
+  background-color:#135;
+  text-align:center;
+  position:relative;
+  top:600px;
+
+}
+ 
+  .name {
+  color:#fff;
+  margin:20px 0 0 0 ;
+}
+
+/*分頁內小區塊*/
+
+#tabs1sec1 {
+  width:670px;
+  height:350px;
+  background-color:#FFE4C4;
+  margin: 0 auto;
+  border:  2px solid #666;
+  border-radius: 10px;
+}
+
+#icon2 {
+  width:280px;
+  height:300px;
+  background-color:	#FFE4C4;
+  background-image:url(https://c1.staticflickr.com/5/4586/38532706972_05030e4f7f_o.gif) ;
+  background-repeat:no-repeat;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+
+}
+
+
+
+/*sortable-portlets*/
+
+  .column {
+    width: 692px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  
+  }
+  .portlet {
+    margin: 0 1em 1em 1em;
+    padding: 0.5em;
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+ /* .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin-top: -8px;
+  } */
+  .portlet-content {
+    padding: 0.4em;
+  }
+  /*.portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  } */
+
+ /*CSS文字動畫 */
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+ /*主要選單*/
+
+#majcover {
+  width:100%;
+  height:50px;
+  margin:0 auto;
+  background-color:#FFFAF0;
+  border:  0.5px solid #eee;
+  position:absolute;
+  top:440px;
+  float:left;
+}
+
+
+#majmenu {
+  margin:0 auto;
+  diplay:inline-block;
+  background-color:#FFFAF0;
+  height:50px;
+
+  
+}
+
+.main {
+  height:50px;
+  width:100px;
+  font-family:微軟正黑體;
+  font-weitght:bold;
+  font-size:20px;
+  text-align:center;
+  line-height:50px;
+  cursor:pointer;
+  background-color:#FFFAF0;
+  color:#FFA500;
+}
+
+.main:hover{
+  background-color:#FFA500;
+  color:white;
+}
+
+.sub {
+  width:100px;
+  height:50px;
+  background-color:pink;
+  color:white;
+  font-family:微軟正黑體;
+  text-align:center;
+  font-weight:bold;
+}
+
+.item {
+  float:left;
+}
+
