@@ -1,0 +1,40 @@
+
+<head>
+		<meta charset="gb2312" />
+		<meta name='viewport' content='initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' />
+        <title>Gakki刮刮樂</title>
+</head>
+<body>
+		<span class="container">
+			<img id="robot" src="https://pbs.twimg.com/profile_images/888462069892136960/VG1pBK-d_400x400.jpg" />
+			<img id="redux" src="https://pbs.twimg.com/profile_images/887460495434764290/KjxwfdLH_400x400.jpg" />
+		</span>
+		<p>
+			<a href="#" onclick="reset(event);" class="box"> 重來一次 </a>
+			<a href="#" onclick="remove(event);" class="box"> 顯示底圖 </a>
+		</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src='js/jquery.eraser.js' type='text/javascript'></script>
+  
+  
+		<script type = "text/javascript">
+
+			addEventListener( "load", init, false );
+
+			function init( event ) {
+				//$("#redux").eraser();
+				$("#redux").eraser({size: 20});//Äã¿ÉÒÔ¶¨Òå±ÊÍ·´óÐ¡
+			}
+
+			function remove(event) {
+				$("#redux").eraser('clear');
+				event.preventDefault();
+			}
+
+			function reset(event) {
+				$("#redux").eraser('reset');
+				event.preventDefault();
+			}
+		</script>
+</body>
