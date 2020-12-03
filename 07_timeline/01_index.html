@@ -1,0 +1,113 @@
+<!--資源:https://modernizr.com/-->
+
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>jQuery+css3响应式时间轴页面效果 - 素材家园（www.szbbs.cn）</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>SEKISE TITLE </h1>
+	</header>
+
+	<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="https://image.flaticon.com/icons/svg/174/174848.svg" alt="facebook">
+			</div><!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>SEKISE01</h2>
+				<p>雪肌精藉由草本植物淬取液的力量，實現紋理細緻、水嫩潤澤、滿溢瑩透感的肌膚，持續守護並孕育女性美麗的白皙膚質。</p>
+				<a href="http://www.sucaijiayuan.com" class="cd-read-more">閱讀更多</a>
+				<span class="cd-date">Sep 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="https://image.flaticon.com/icons/svg/145/145810.svg" alt="bee">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>SEKISE02</h2>
+				<p>雪肌精藉由草本植物淬取液的力量，實現紋理細緻、水嫩潤澤、滿溢瑩透感的肌膚，持續守護並孕育女性美麗的白皙膚質。</p>
+				<a href="http://www.sucaijiayuan.com" class="cd-read-more">閱讀更多</a>
+				<span class="cd-date">Oct 18</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="https://image.flaticon.com/icons/svg/145/145808.svg" alt="Pinterest">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>SEKISE03</h2>
+				<p>雪肌精藉由草本植物淬取液的力量，實現紋理細緻、水嫩潤澤、滿溢瑩透感的肌膚，持續守護並孕育女性美麗的白皙膚質。</p>
+				<a href="http://www.sucaijiayuan.com" class="cd-read-more">閱讀更多</a>
+				<span class="cd-date">Nov 24</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="https://image.flaticon.com/icons/svg/145/145805.svg" alt="ig">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>SEKISE04</h2>
+				<p>雪肌精藉由草本植物淬取液的力量，實現紋理細緻、水嫩潤澤、滿溢瑩透感的肌膚，持續守護並孕育女性美麗的白皙膚質。</p>
+				<a href="http://www.sucaijiayuan.com" class="cd-read-more">閱讀更多</a>
+				<span class="cd-date">Dec 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="https://image.flaticon.com/icons/svg/145/145807.svg" alt="linkedin">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>SEKISE05</h2>
+				<p>雪肌精藉由草本植物淬取液的力量，實現紋理細緻、水嫩潤澤、滿溢瑩透感的肌膚，持續守護並孕育女性美麗的白皙膚質。</p>
+				<a href="http://www.sucaijiayuan.com" class="cd-read-more">閱讀更多</a>
+				<span class="cd-date">Jan 18</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="https://image.flaticon.com/icons/svg/145/145812.svg" alt="twitter">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>SEKISE06</h2>
+				<p>雪肌精藉由草本植物淬取液的力量，實現紋理細緻、水嫩潤澤、滿溢瑩透感的肌膚，持續守護並孕育女性美麗的白皙膚質。</p>
+                <a href="http://www.sucaijiayuan.com" class="cd-read-more">閱讀更多</a>
+				<span class="cd-date">Feb 26</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
+    <script>
+$(function(){
+	var $timeline_block = $('.cd-timeline-block');
+	//hide timeline blocks which are outside the viewport
+	$timeline_block.each(function(){
+		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+		}
+	});
+	//on scolling, show/animate timeline blocks when enter the viewport
+	$(window).on('scroll', function(){
+		$timeline_block.each(function(){
+			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+			}
+		});
+	});
+});
+</script>
+</body>
