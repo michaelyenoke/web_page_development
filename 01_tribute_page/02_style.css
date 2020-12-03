@@ -1,0 +1,113 @@
+.nav{
+  background-color:gray;
+  width: auto;
+  height:100px;
+}
+
+.text{
+  font-size:50px;
+  font-style:italic;
+  font-weight:bold;
+  margin:0;
+  padding:10px;  /*padding - 內距*/
+}
+
+.bighead{
+  background-color:white;
+  width: auto;
+  height:1250px;
+  margin:0px ;
+}
+.head2{
+  background-color:lightgray;
+  width: 800px;
+  height:1250px;
+  margin:0 auto;
+  box-shadow: 0px 2px 2px 1px rgba(0, 5, 0, 0.2);
+  }
+
+ .caption{
+  background-color:white;
+  width: 730px;
+  height:370px;
+  margin:0 auto;
+}
+.intro{
+  background-color:white;
+  width: 750px;
+  height:320px;
+  margin:0 auto;
+  padding:20px;
+}
+
+p1{
+  padding-left:30px;
+  margin-top:50px;
+  font-size:30px;
+  font-weight; 
+}
+
+p2{
+  padding:0px;
+  margin:0;
+  font-size:15px;
+  display:inline-block;
+}
+
+/*
+block:元素以區塊的方式呈現,簡單來說當不做其他CSS設定時,元素的寬會與父元素的同寬,在白話一點也就遇到block屬性的元素,其同層元素會換行顯示。
+如<p>,<h1>~<h6>,<div>,<ul>等......
+
+inline:元素與為並排顯示,其容器大小以內容物判定,無法設定寬高,上下外距等屬性...
+如<a>,<span>,<em>,<strong>,<b>,<i>等.....
+
+inline-block:簡單來說為排列方式以inline的方式呈現,但擁有block的屬性,可以設定寬高,上下外距等屬性
+如 <img>等...
+
+none:其實這很簡單當我將元素設定成display:none此元素在網頁上就不顯示了。其中CSS有個能見度visibility : hidden與display:none有些差別,前者雖不顯示但保有空間,後者不顯示也不佔空間。
+
+*/
+
+.intro2{
+  background-color:white;
+  width: 750px;
+  height:300px;
+  margin:0 auto;
+  padding:20px;
+  margin-top:20px;
+}
+
+
+/*CSS margin 屬性用來定義一個區域（例如 DIV 或 span）的外邊界距離，俗稱外距，與常用的 padding（內距）剛好不同。*/
+
+
+p3{
+  padding-left:30px;
+  margin-top:50px;
+  font-size:30px;
+  font-weight; 
+  margin-bottom:10px;
+}
+
+p4{
+  padding:0px;
+  margin:0;
+  font-size:15px;
+  display:inline-block;
+}
+
+.pho1{
+  padding:20px 20px 150px 20px;  /*上 右 下 左*/
+}
+
+.name{
+  text-size:20px;
+}
+
+
+
+.bottom{
+  background-color:black;
+  width: auto;
+  height:100px;
+}
