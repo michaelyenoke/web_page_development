@@ -1,0 +1,612 @@
+<!-- codepen:https://codepen.io/michaelyenoke/pen/GOWPqb -->
+
+<head>         
+      <link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  　　<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+　　　 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>　
+      
+      <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/> <!--Bootstrap--> 
+     
+       <!--圖片輪播
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css"></link>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.min.css"></link>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js"></script>-->
+
+  　　<!-- CSS動畫
+     <link rel="stylesheet"　　href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  　　or
+  　　<link rel="stylesheet"　href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">  -->
+     
+</head>
+
+<body>
+     
+<div id="banner"></div>
+ 
+ <header id="header">
+            <div class="center">
+              
+                 <div class="logo">
+                       <h1 class="logo-text">Mr.Ramen </h1> 
+                 </div>
+                      
+                 <div class="title">
+                     <h1 class="logo-text">🍜元祖小雞蜜汁前端網頁設計學習筆記🍜 </h1> 
+                 </div>
+                 
+            </div>
+ </header>
+  
+  
+  
+<div id="header_two">
+         
+
+     <div class="header_two_main">
+       
+             
+             <div class="header_two_search">
+                 <input type="text" name="search" class="search" />      
+             </div>
+             
+             <div class="header_two_button">
+                 <input type="button" value="查詢" id="search_button" />
+             </div>
+          
+             <div class="header_two_member">
+                 <a href="###" id="reg_a">註冊</a>｜<a href="###" id="log_a">登錄</a>
+             </div>  
+     
+     </div>  
+
+</div>         
+
+<div id="reg" title="會員註冊">還在燒開水喔!現在還沒有小雞拉面可以吃!</div>
+<div id="log" title="會員登陸">再等等!就可以登錄喔!</div>
+  
+<div id="effect" class="ui-widget-content ui-corner-all">
+                            
+                              <iframe id="video" width="700" height="375" src="https://www.youtube.com/embed/n5vsPzDLIts"  frameborder="0" allowfullscreen></iframe> <br/>
+                         
+            
+    
+                          <select name="effects" id="effectTypes">
+                             <option value="blind">Blind</option>
+                             <option value="bounce">Bounce</option>
+                             <option value="clip">Clip</option>
+                             <option value="drop">Drop</option>
+                             <option value="explode">Explode</option>
+                             <option value="fade">Fade</option>
+                             <option value="fold">Fold</option>
+                             <option value="highlight">Highlight</option>
+                             <option value="puff">Puff</option>
+                             <option value="pulsate">Pulsate</option>
+                             <option value="scale">Scale</option>
+                             <option value="shake">Shake</option>
+                             <option value="size">Size</option>
+                             <option value="slide">Slide</option>
+                           </select>
+ 
+                <button id="button" class="ui-state-default ui-corner-all">關閉影片</button>
+                            
+                </div>   
+  
+  
+  
+<div id="majcover">
+<div id="majmenu">
+ 
+     <div class="item">    
+          <div class="main">日清小雞</div>  
+          <div class="sub">
+               <ul>
+                    <li>摔角篇</li>
+                    <li>分離的戀人</li>
+                    <li>五彩繽紛</li>  
+               </ul>
+          </div>
+      </div>   
+  
+     <div class="item">   
+          <div class="main">主選單2</div>
+          <div class="sub">
+                <ul>
+                    <li>摔角篇</li>
+                    <li>分離的戀人</li>
+                    <li>五彩繽紛</li>  
+               </ul>
+          </div>
+     </div>   
+  
+     
+     <div class="item">  
+          <div class="main">新垣結衣</div>
+          <div class="sub">
+               <ul>
+                    <li>摔角篇</li>
+                    <li>分離的戀人</li>
+                    <li>五彩繽紛</li>  
+               </ul>            
+          </div>
+      </div>
+  
+      <div class="item">   
+          <div class="main">主選單4</div>
+          <div class="sub">
+                <ul>
+                    <li>摔角篇</li>
+                    <li>分離的戀人</li>
+                    <li>五彩繽紛</li>  
+               </ul>
+          </div>
+     </div>   
+  
+     <div class="item">   
+          <div class="main">主選單5</div>
+          <div class="sub">
+                <ul>
+                    <li>摔角篇</li>
+                    <li>分離的戀人</li>
+                    <li>五彩繽紛</li>  
+               </ul>
+          </div>
+     </div>   
+  
+  
+</div>
+</div>  
+
+
+
+                     
+                        
+
+<div id="main">  
+     
+        
+
+                       
+    
+    <div id="main_center"> 
+      
+      <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">設計</a></li>
+              <li><a href="#tabs-2">前端</a></li>
+              <li><a href="#tabs-3">後端</a></li>
+              <li><a href="#tabs-4">資源</a></li>
+              <li><a href="#tabs-5">主機</a></li>
+              <li><a href="#tabs-6">概論</a></li>
+              <li><a href="#tabs-7">媒體</a></li>
+              <li><a href="#tabs-8">Google</a></li>
+              <li><a href="#tabs-9">日語</a></li>
+              <li><a href="#tabs-10">資料</a></li>
+              <li><a href="#tabs-11">架站平台</a></li>
+              
+            </ul>
+            
+            <div id="tabs-1">
+              
+                <div id="tabs1sec1">  
+                      <div id="icon2"></div>
+                </div>
+           
+               
+                     
+ 
+                  
+ 
+                 
+              
+            </div>
+           
+            <div id="tabs-2">
+                
+
+              
+                 <div class="column">
+              
+                             
+                            
+                                <div class="portlet">
+                                    <div class="portlet-header">找 課程</div>
+                                    <div class="portlet-content">
+                                          <p> freecodecamp.cn </p>
+                                          <p> Node school  <a class="gg" target="_blank" href="https://nodeschool.io/">Here</a> </p>
+                                          <p>陳鐘誠 專為中學生 <a  class="gg" target="_blank" href="https://mdbookspace.com/view/jsh/">Here</a>  <br/>頻道 <a  class="gg" href="https://www.youtube.com/playlist?list=PLZGnAhii0wHxJCFj_KplXC_PoA4i78rnE">Here</a></p>
+                                          <p>網頁研習室-建立基礎網站:第五篇 <a  class="gg" target="_blank" href="http://www.webpage.idv.tw/maillist/maillist4/new/05/05.htm#ff">Here</a></p>
+                                          <p>jQuery UI  <a class="gg"  target="_blank" href="http://jqueryui.com/">Here</a></p>
+                                          <p> w3school  <a class="gg" target="_blank"  href="http://www.w3school.com.cn/index.html">Here</a> </p>
+                                          <p> Node.js   <a  class="gg"  target="_blank" href="https://nodejs.org/en/">Here</a> </p>
+                                          <p> Javascript 教學  <a class="gg" target="_blank"  href="http://taiwantc.com/js/index.html">Here</a> </p>
+                                          <p> jQuery Api <a class="gg" target="_blank"  href="http://api.jquery.com/">Here</a> </p>
+                                          <p> Ｙ琪 jQuery UI 教學 <a class="gg" target="_blank"  href="http://job.achi.idv.tw/2010/02/05/jquery-ui-getting-started/">Here</a></p>
+                                          <p> jsgears.com <a class="gg" target="_blank"  href="http://jsgears.com/thread-63-1-1.html">Here</a> </p>
+                                          <p> jQuery Easy UI  <a class="gg" target="_blank"  href="http://www.jeasyui.com/">Here</a> </p>
+                                          <p> 顏色表及HTML代碼表 <a class="gg" target="_blank"  href="http://xh.5156edu.com/page/z1015m9220j18754.html">Here</a> </p>
+
+                                          <p> CitecheckerPro   <a  class="gg" target="_blank" href="https://sitechecker.pro/">Here</a> </p>
+                                          <p> 三種方法取得jQueryLibrary <a class="gg"  target="_blank"  href="http://www.webpage.idv.tw/maillist/maillist4/new/05/code3.htm">Here</a> </p>
+                                          <p> SR數位設計工作室 <a class="gg" target="_blank"  href="http://srdesign.com.tw/design/">Here</a>  </p>
+                                          <p> SR [HTML相關] HTML+CSS 瀑布流網站版型  <a class="gg" target="_blank"  href="http://srdesign.com.tw/design/forum.php?mod=viewthread&tid=20&extra=page%3D1%26filter%3Dtypeid%26typeid%3D38%26typeid%3D38">Here</a>  </p> 
+                                          <p> SR [CSS相關] Animate.CSS 讓你輕鬆使用56種 CSS3 動畫特效  <a class="gg" target="_blank"  href="http://srdesign.com.tw/design/thread-161-1-1.html ">Here</a></p>
+                                          <p> Goolge URL Shorter <a class="gg" target="_blank"  href="https://goo.gl/">Here</a> </p>
+                                          <p> Animate.css <a class="gg" target="_blank"  href="https://daneden.github.io/animate.css/">Here</a> </p> 
+                                          <p> HTML5 Tricks <a class="gg" target="_blank"  href="http://www.html5tricks.com/tag/html5-canvas ">Here</a></p>
+                 
+                                          <p> IETester <a class="gg" target="_blank"   href="https://ietester.en.softonic.com/">Here</a> </p>
+                                          <p> Buttion icon  <a class="gg" target="_blank"  href="https://www.iconfinder.com/search/?q=button">Here</a> </p>
+                                          <p> i2symbol <a class="gg" target="_blank"  href="http://www.i2symbol.com/symbols/check">Here</a>  </p>
+                                          <p> Winebottle  <a class="gg" target="_blank"  href="http://winebottler.kronenberg.org/downloads ">Here</a></p>
+                
+                                          <p> 解決各家瀏覽器 CSS 排版位置差異最佳的方法「Reset CSS」  <a  class="gg"  target="_blank"  href="http://www.flycan.com.tw/board/modules/newbb/viewtopic.php?                                                              topic_id=1464">Here</a>     英文  <a class="gg"  target="_blank" href="https://meyerweb.com/eric/tools/css/reset/">Here</a> </p>
+                                          <p> jQuery Plugin Validation <a class="gg" target="_blank"  href="http://bassistance.de/jquery-plugins/jquery-plugin-validation">Here</a> </p>
+                                          <p> Sketch <a class="gg" target="_blank"  href="https://www.sketchapp.com/">Here</a> </p>
+                                          <p>介紹JSON : <a class="gg" target="_blank"  href="http://www.json.org/json-zh.html">Here</a>  </p>
+                                          <p>中國大學MOOC 國防科技大學 計算機概論 <a class="gg"  target="_blank" href="http://www.icourse163.org/course/NUDT-17003">Here</a>  </p> 
+                                          <p>中國大學MOOC 北京理工大學 大學計算機 <a class="gg" target="_blank"  href="http://www.icourse163.org/course/BIT-47004">Here</a>   </p>
+                                          <p>菜鳥教程  <a class="gg" target="_blank"   href="http://www.runoob.com/">Here</a> </p>
+                                          <p> freecodecamp.cn </p>
+                                          <p> Node school  <a class="gg"  target="_blank" href="https://nodeschool.io/">Here</a> </p>
+                                          <p> Code School <a class="gg"  target="_blank" href="https://www.codeschool.com/">Here</a> </p>
+                                          <p> Codecademy <a class="gg" target="_blank"  href="https://www.codecademy.com/">Here</a> </p>
+                                          <p> 網易雲課堂  <a class="gg" target="_blank"  href="https://study.163.com/ ">Here</a> </p>
+                                          <p> 天瓏書店  <a class="gg"  target="_blank" href="https://www.tenlong.com.tw/search">Here</a> </p>
+                 
+                                    </div>
+                                </div>
+ 
+                                <div class="portlet">
+                                    <div class="portlet-header">找 主機</div>
+                                    <div class="portlet-content">
+                                               <p>Ｂluehost <a class="gg" target="_blank"  href="https://www.bluehost.com/web-hosting/signup">Here</a></p>
+                                               <p> Bytheost <a class="gg" target="_blank"  href="https://byet.host/">Here</a>  </p>
+                                                <p> What is my ip <a class="gg" target="_blank"  href="https://www.google.com.tw/search?q=what+is+my+ip&oq=what+is+my&aqs=chrome.0.0j69i57j0l4.4623j0j8&sourceid=chrome&ie=UTF-8">Here</a> </p>
+                                    </div>
+                                </div>
+                      
+                                <div class="portlet">
+                                    <div class="portlet-header">後端</div>
+                                    <div class="portlet-content">
+                                           <p>Appserve  <a class="gg" target="_blank"  href="https://www.appserv.org/en/">Here</a> </p>
+                                           <p>Discuz論壇  <a class="gg" target="_blank"  href="http://www.discuz.net/forum.php">Here</a> </p>
+                                           <p>XOOPS <a class="gg" target="_blank"  href="https://campus-xoops.tn.edu.tw/">Here</a> </p>
+                                           <p> 野狗雲 <a class="gg" target="_blank"  href="https://www.wilddog.com/">Here</a> </p>
+                                           <p> ECshop <a class="gg" target="_blank"  href="http://www.ecshop.com/">Here</a> </p>
+                                           <p> Zend Studio <a class="gg" target="_blank"  href="http://www.zend.com/en/products/studio">Here</a> </p>
+                                           <p> Discuz!x  <a class="gg"  target="_blank" href="http://www.comsenz.com/downloads/install/discuzx#down_open">Here</a>  </p>
+                                    </div>
+                                </div>
+                      
+                       </div>  
+ 
+              
+              
+              
+              <div class="column">
+              
+                             
+                            
+                                <div class="portlet">
+                                    <div class="portlet-header">找 圖片</div>
+                                    <div class="portlet-content">
+                                           <p> 台灣創用CC計畫  <a class="gg" target="_blank" href="http://creativecommons.tw/search">Here</a> </p>
+                                           <p> 圖庫  <a class="gg" target="_blank"  href="https://unsplash.com/">Here</a>  </p>
+                                            <p> 黑貓老師 免費圖庫 <a class="gg" target="_blank"  href="http://kurtsun.pixnet.net/blog/post/45261915-%E9%9C%80%E8%A6%81%E7%B4%A0%E6%9D%90%E6%99%82%E5%8F%AF%E4%BB%A5%E7%94%A8%E7%9A%84%E5%85%8D%E8%B2%BB%E5%9C%96%E5%BA%AB">Here</a>  </p>
+                                    </div>
+                                </div>
+ 
+                                <div class="portlet">
+                                    <div class="portlet-header">找 符號/emoji</div>
+                                    <div class="portlet-content">
+                                           <p> Flaticon <a class="gg" target="_blank" href="https://www.flaticon.com/free-icon/compass_181510">Here</a> </p>
+                                           <p> 特殊符號 <a  class="gg" target="_blank"  href="https://tw.piliapp.com/symbol/">Here</a> </p>   
+                                           <p> Font Awesome Icon    <a class="gg" target="_blank"   href="http://fontawesome.io/icons/">Here</a>  </p>
+                                    </div>
+                                </div>
+                      
+                                <div class="portlet">
+                                    <div class="portlet-header">找 資源</div>
+                                    <div class="portlet-content">
+                                              
+                                               <p>林金露老師多媒體開發資源 <a class="gg"  target="_blank" href="https://linjinlu.com/">Here</a></p>
+                                               <p>Codepen   <a class="gg" target="_blank"  href="https://codepen.io/">Here</a> </p>
+                                               <p>Stack OverFlow  <a class="gg" target="_blank"  href="https://stackoverflow.com/">Here</a> </p>
+                                               <p>百度 UEditor <a class="gg" target="_blank"  href="http://ueditor.baidu.com/website/">Here</a> </p>
+                                               <p> Github  <a class="gg" target="_blank"  href="https://github.com/">Here</a> </p>
+                                               <p> iT幫幫忙 <a class="gg" target="_blank"  href="https://ithelp.ithome.com.tw/">Here</a> </p>
+                                               <p> 中小企業網路大學校 <a class="gg" target="_blank"  href="https://www.smelearning.org.tw/">Here</a> </p>
+                                               <p> 青年創業圓夢網 <a class="gg" target="_blank" href="http://sme.moeasmea.gov.tw/Startup/modules/space/">Here</a> </p>
+                                               <p> w3school <a class="gg" target="_blank"  href="https://www.w3schools.com/cert/default.asp">Here</a> </p>
+                                               <p> 極客學院  <a class="gg" target="_blank"  href="http://www.jikexueyuan.com/">Here</a> </p>
+                                               <p> FreeCodeCamp 中文討論區  <a class="gg"  target="_blank" href="https://gitter.im/FreeCodeCamp/chinese">Here</a>  </p>
+                                               <p> 免費資源網路社群網站  <a class="gg" target="_blank"  href="https://free.com.tw/">Here</a>  </p>
+                                               <p> 免費資源網路社群網站 15個免費圖庫 <a class="gg" target="_blank"  href="https://free.com.tw/15-find-free-images/">Here</a> </p>
+                                               <p> 表嚴肅  <a class="gg" target="_blank"  href="http://biaoyansu.com/">Here</a>  </p>
+                                      
+                 <p>The Will Will Web <a class="gg" target="_blank"  href="https://blog.miniasp.com/">Here</a></p>
+                 <p>夏木樂網站知識 <a class="gg" target="_blank"  href="https://simular.co/knowledge/">Here</a>  </p>
+                 <p> <a class="gg" target="_blank"  href="http://xunli.xyz/#blog ">Here</a> </p>
+                 <p>  產業學習網 <a class="gg" target="_blank"  href="https://college.itri.org.tw/">Here</a> </p>
+                 <p>  梅問題教學網 <a class="gg" target="_blank" href="https://www.minwt.com/">Here</a> </p>
+                 <p> 索尼的紅燈人生 網站企劃Visio你用了嗎 <a class="gg" target="_blank"  href="http://sony1708.pixnet.net/blog/post/22562148">Here</a> </p>
+                 <p> 設計大舌頭 <a class="gg" target="_blank"  href="https://designtongue.me/">Here</a>  </p>
+                 <p> Conversion Lab  <a class="gg" target="_blank"  href="http://conversionlab.co/">Here</a> </p> 
+                 <p> 布丁布丁吃什麼 <a class="gg"  target="_blank" href="http://blog.pulipuli.info/">Here</a> </p>
+                 <p>Rella7 <a class="gg"  target="_blank" href="http://www.jianshu.com/u/1526732e67dd">Here</a> </p>
+                 <p> 慕課手記 <a class="gg" target="_blank"  href="http://www.imooc.com/article">Here</a>  </p>
+                 <p> sketch教學 <a class="gg"  target="_blank" href="http://www.imooc.com/learn/900?mc_marking=f04136011775d92c5132282b92e4f640&mc_channel=uisheji1">Here</a> </p>
+                                      <p>w3school SVG教程   <a  class="gg" target="_blank" href="http://www.w3school.com.cn/svg/index.asp">Here</a> </p>
+                      <p>w3school HTML5 Canvas  <a class="gg" target="_blank" href="http://www.w3school.com.cn/html5/html_5_canvas.asp">Here</a> </p>
+                      <p>  Weebly    <a class="gg" target="_blank" href="https://www.weebly.com/">Here</a>  </p>
+                      <p> Google短網址產生器  <a class="gg" target="_blank" href="https://support.google.com/analytics/answer/1033867">Here</a>  </p>
+                      <p> w3school css顏色  <a class="gg" target="_blank" href="http://www.w3school.com.cn/cssref/css_colors.asp">Here</a> </p>
+                                                    <p> 高雄市政府資料開放平台 <a class="gg" target="_blank"  href="https://data.kcg.gov.tw/ ">Here</a></p>
+                 <p> How Music Taste Evolvue <a class="gg" target="_blank"  href="https://pudding.cool/2017/03/music-history/index.html">Here</a> </p>
+              <!--以下借放-->
+                 <p>envatomarket  <a class="gg" target="_blank"  href="https://market.envato.com/?_ga=2.138612659.1225122606.1511010813-715631273.1504624453">Here</a></p>
+                 <p> colorilb <a class="gg" target="_blank" href="https://colorlib.com/wp/">Here</a> </p>
+                 <p> 外掛先生  <a class="gg" target="_blank"  href="https://www.twoopay.com/">Here</a> </p>
+                 <p> <a class="gg" target="_blank"  href="https://www.pootlepress.com/">Here</a> </p>
+              
+              
+                 <p>日語檢定JLPT N2及N3  <a class="gg" target="_blank" href="http://mkhchu.blogspot.tw/">Here</a></p>
+                 <p>marumaru <a class="gg" target="_blank"  href="https://www.jpmarumaru.com/tw/index.asp">Here</a> </p>
+                      
+                      <p> Adobe illustrator 使用者手冊 <a class="gg" target="_blank" href="https://helpx.adobe.com/tw/illustrator/user-guide.html">Here</a> </p> 
+                      <p> Adobe Sketch <a class="gg" target="_blank" href="https://www.invisionapp.com/sketch-prototyping">Here</a> </p>
+                
+                                    </div>
+                                </div>
+                      
+                       </div>  
+              
+              
+              
+              
+                 
+                  
+              
+            </div>
+        
+            <div id="tabs-3">
+              
+              
+                 <div id="tabs1sec1">  
+                  
+                 </div>
+              
+                 
+                 
+                  
+            </div>
+          
+            <div id="tabs-4"> <!--資源-->
+              
+                 <div id="tabs1sec1">  
+                  
+                 </div>
+              
+              
+              
+              
+ 
+                  
+                 
+            </div>
+        
+            <div id="tabs-5">
+              
+                 <div id="tabs1sec1">  
+                  
+                 </div>
+              
+              
+ 
+            </div>
+        
+            <div id="tabs-6">
+              
+                 <div id="tabs1sec1">  
+                  
+                 </div>
+              
+              
+              
+                
+                 
+            </div>
+        
+        
+        
+            <div id="tabs-7">
+                              
+                <div id="tabs1sec1">    </div> 
+                  
+       
+                  
+                  
+                  
+                  
+                  
+             
+              
+              
+              
+
+                 
+            </div>
+        
+        
+        
+        
+            <div id="tabs-8">
+                 
+                 <div id="tabs1sec1">  
+                  
+                 </div>
+              
+              
+                 <p>Google Partner   <a class="gg" target="_blank"  href="https://www.google.com/partners/#p_overview">Here</a> </p>
+                 <p>Academy for Ads  <a class="gg" target="_blank"  href="https://academy.exceedlms.com/student/catalog">Here</a> </p>
+                 <p>Google Tag Manager <a class="gg" target="_blank"  href="https://www.google.com/analytics/tag-manager/">Here</a> </p>
+                 <p>Google Analytics Platform  <a class="gg" target="_blank"  href="https://ga-dev-tools.appspot.com/">Here</a>  </p>
+                 <p>Google Adwords  <a class="gg" target="_blank"  href="https://adwords.google.com/home/how-it-works/">Here</a> </p>
+                 <p>Google Analytics Academy <a class="gg" target="_blank"  href="https://analytics.google.com/analytics/academy/">Here</a> </p>
+                 <p>Google Analytics 標籤整理Excel <a class="gg" target="_blank"  href="https://docs.google.com/spreadsheets/d/1tf3_SczMMTTf-ZJ9Bkb70xps_DPGLBTd4wkHPyadKSA/edit#gid=1">Here</a> </p>
+                 <p>Google Analytics Solution Gallery <a class="gg" target="_blank"  href="https://analytics.google.com/analytics/gallery/#landing/start/">Here</a> </p>
+                 <p>GA小站-最權威GA與GTM分享平台-  <a class="gg"  target="_blank" href="https://www.ichdata.com/">Here</a> </p>
+                 <p>網站分析與數位行銷 <a class="gg" target="_blank" href="http://www.startdo.tw/">Here</a> </p>
+                 <p>Google Analytics 網址產生器 <a class="gg"  target="_blank" href="https://support.google.com/analytics/answer/1033867">Here</a> </p>
+                 <p>DoubleClick Search <a class="gg" target="_blank"  href="https://support.google.com/ds/answer/2815980">Here</a> </p>
+                 <p> Davis的GoogleAnalytics紀錄  <a class="gg" target="_blank" href="http://www.analyticsdavis.com/">Here</a> </p>
+                 
+                 
+            </div>
+        
+            <div id="tabs-9">
+              
+                <div id="tabs1sec1">  
+                  
+                 </div>
+
+            </div>
+          
+            <div id="tabs-10">
+              
+    
+<!--圖片輪播
+    <div class="owl-carousel owl-theme">
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>
+    <div class="item"><h4>7</h4></div>
+    <div class="item"><h4>8</h4></div>
+    <div class="item"><h4>9</h4></div>
+    <div class="item"><h4>10</h4></div>
+    <div class="item"><h4>11</h4></div>
+    <div class="item"><h4>12</h4></div>
+</div>-->
+              
+              
+              
+              
+              
+              
+              
+              
+
+                 
+            </div>
+          
+            <div id="tabs-11">
+              
+              
+                  <div id="tabs1sec1">  
+                  
+                 </div>
+              
+                         
+           <ul id="menu">
+  <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+  <li><div>Books</div></li>
+  <li><div>Clothing</div></li>
+  <li><div>Electronics</div>
+    <ul>
+      <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+      <li><div>Car Hifi</div></li>
+      <li><div>Utilities</div></li>
+    </ul>
+  </li>
+  <li><div>Movies</div></li>
+  <li><div>Music</div>
+    <ul>
+      <li><div>Rock</div>
+        <ul>
+          <li><div>Alternative</div></li>
+          <li><div>Classic</div></li>
+        </ul>
+      </li>
+      <li><div>Jazz</div>
+        <ul>
+          <li><div>Freejazz</div></li>
+          <li><div>Big Band</div></li>
+          <li><div>Modern</div></li>
+        </ul>
+      </li>
+      <li><div>Pop</div></li>
+    </ul>
+  </li>
+  <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+</ul>
+
+                 
+            </div>
+        
+       </div>
+            
+    </div>
+  
+    <div id="main_right">
+      
+         <h1 class="animated infinite bounce">すぐ美味しい～ <br/>すごくおいしい～</h1>
+
+         <div id="icon"></div>          
+         
+         <div id="accordion">
+              
+             <div class="group">
+                  <h3>Section 1</h3>
+                      <div>
+                           <p> <!-- <div id="datepicker">  </div>-->    </p>
+                      </div>
+              </div>
+           
+              <div class="group">
+                   <h3>Section 2</h3>
+                        <div>
+                             <p></p>
+                        </div>
+              </div>
+           
+              <div class="group">
+                   <h3>Section 3</h3>
+                        <div>
+                             <p></p>
+                             <ul>
+                                 <li>List item one</li>
+                                 <li>List item two</li>
+                                 <li>List item three</li>
+                             </ul>
+                         </div>
+               </div>
+           
+               <div class="group">
+                    <h3>Section 4</h3>
+                        <div>
+                             <p></p><p></p>
+                        </div>
+                 </div>
+          </div>
+    </div>
+</div>
+
+  
+  
+ 
+    
+</body>
+
+<footer>
+   </br></br>
+<span class="face">🤣🌲👊🙇🐶🏀🎬🎮🏋🗾🔥😎😍👍</span><p6 class="name"> Coded by <a target="_blank" href="https://goo.gl/11vSMq">Michael Y. H. Chen </a></p6> <span class="face">🤣🌲👊🙇🐶🏀🎬🎮🏋🗾🔥😎😍👍</span> </br>
+   <p6 class="name">  © 2017. All Rights Reversed | *建議使用桌面端瀏覽器豐富呈現*</br>    </p6>
+   
+  
+    
+</footer>
