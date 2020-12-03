@@ -1,0 +1,535 @@
+@charset "utf-8";
+
+body,h1,ul, figure, .top, .bottom,h2,h3,ol{
+	margin: 0;
+	padding: 0;   /*消除空隙*/
+}
+
+
+ul,ol {
+	list-style:outside none none;  /*清除表單前的小圓點*/
+}
+
+body{
+	background-color:#fff;  
+}
+
+a {
+	text-decoration: none;   /*超連結不加下划線*/
+	color: #999;
+}
+
+.none {
+	display: none;
+}
+
+header {                      /*不知道為什麼選擇器除了元素外都不能使用*/
+	width: 100%;
+	height: 70px;
+	background: #333;
+	box-shadow: 0 101px 101px rgba(0,0,0,0);	               /*陰影效果 似乎沒有成功！！*/
+	position: relative;   /*陰影效果-建立相對位置*/
+	z-index: 9999;        /*陰影效果-最高層次*/
+}
+
+
+
+.center {
+	width: 1263px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 240px;
+	height: 70px;
+	background-image: url(../img/logo.png); /*先到上一層再進入*/
+	text-indent:-9999px;   /*h1文字保留方便搜尋，但又不能看到的作法，向左移動-9999*/
+    float:left;
+	
+}
+
+.link {
+	width:650;
+	height:70px;
+	line-height: 70px; /*垂直居中的作法，和height設相同參數*/
+	color:lightgray; /*直接用color就可以*/
+	float: right;
+
+}
+
+.link > li {
+	width: 120px;
+	text-align:center;
+	float:left;
+}
+
+.link  > li > a {     /*預防每個地方不同分別設置*/
+    color: lightgray;
+    display: block;  /*為了讓點擊範圍不限於文字，故設定為區塊，就能夠延伸*/
+} 
+
+
+.link  > li > a:hover, .link  > li.active a {   /*設定鼠標*/ /*保持選定鼠標狀態*/ 
+	background-color: black;  /*設定鼠標*/	
+}
+
+/*新段落*/
+
+.footer {
+    height:330px;  /*背景不需要寬度*/
+    background-color: #222;
+    clear: both; /*清理浮動，讓網頁自適應*/
+    margin: 10px 0; /*清理浮動讓margin無效果*/
+    position: relative;
+    top:20px;
+}
+
+
+.top {
+
+    width: 100%;
+    height:280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom {
+    height:50px;  /*文本很少只要居中即可不用拘束在固定寬度中*/
+    background-color:#000;
+    color: white;
+    text-align: center;
+    padding-top:20px;
+    border-top: 1px solid #444;
+    position: relative;   
+}
+
+
+.block {
+	width: 410px;
+    height:280px;                        
+    display: inline-block;  
+    text-align: left;  
+    color:#ccc;
+    vertical-align: top;   /*強制居頂*/
+}
+
+.block > h2 {
+	font-size:24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+	text-align: left;
+}
+
+.block >hr {
+	width: 90%;
+	text-align: left;
+	border:dashed 1px #333;
+}
+
+.block >ul {
+	font-size: 18px;
+	color:#777;
+	text-indent: 20px;  /*文本推進，用padding也可以！*/
+	line-height: 2;     /*文本間距*/
+}
+
+
+/*  以下都用block取代即可，保留各自用來微調。
+.btleft  {
+    width: 410px;
+    height:280px;
+    background-color: red;                        
+    display: inline-block;  有兩種方法讓div並排float和inline-block 
+    text-align: left;  調整上面的置中成靠左
+}
+
+.btcenter {
+	width: 410px;
+    height:280px;
+    background-color: green;
+    display: inline-block;
+    text-align: left;  
+}
+
+.btright {
+    width: 410px;
+    height:280px;
+    background-color: yellow;
+    display: inline-block;
+    text-align: left; 
+}*/
+
+@charset "utf-8";
+
+.link  > li > a:hover, .link  > li.active a {   /*設定鼠標*/ /*保持選定鼠標狀態*/ 
+	background-color: black;  /*設定鼠標*/	
+}
+
+.headline {
+	width: 1920px;  /*不出現滾動條*/
+	height: 300px;
+	background-image: linear-gradient(to bottom right, rgba(0,0,0,0.0),rgba(0,0,0,0.7)), url(http://demo.ycku.com/html5/3/img/adver.jpg) ; /* no-repeat 不重複顯示圖片 ； center 居中*/   
+}    /*linerar-gradient-漸進顏色方位、顏色（2個rgb代表兩種顏色）、透明度（a） ； 以後可用高斯模糊來處理*/
+
+.h-center {
+	width: 1263px;
+	height: 300px;
+    margin: 0 auto;
+}
+
+hgroup {
+	padding: 100px 0 0 50px;
+}
+
+hgroup > h2 {
+	color:#eee;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+
+hgroup > h3 {
+	color:#eee;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.hg2 {
+     padding: 0 ;
+     margin:  0;
+}
+
+.container {
+	width:1263px;
+	/*height: 1200px; 讓網頁自己調整 */
+	margin: 30px auto;
+}
+
+.sidebar {
+	width: 340px;
+	/*height: 1200px; 讓網頁自己調整 */
+	background-color: #eee;
+	float:right;
+}
+
+
+
+.sidebox {
+	border: 1px solid #ccc;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+.sidebox > h2 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 35px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color:#666;
+	text-align: left;
+}
+
+.tag {
+	padding: 10px 0;  /* 下上、左右*/
+}
+
+.tag > ul > li {       /* 把a改成ul > li，使list成為inline-block*/
+	display:inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+    background-color: #fafafa;
+    color:#999;
+}
+
+.tag > ul > li > a {
+	display: block;  /*解決inlineblock範圍不足的問題，block完全包含了li的長寬設置*/
+}
+
+
+.tag > ul > li > a:hover {
+    background-color: #458b00;
+    color:#fff;
+}
+
+.hotpht > figure {
+	display: inline-block;
+	padding: 4px;
+	color:#666;
+}
+
+.treasure {
+	padding: 10px 0;  /* 下上、左右*/
+}
+
+.treasure  > a {
+	display:inline-block;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	margin: 8px 0;
+    background-color: #fafafa;
+    color:#999;    
+}
+
+.treasure  > a:hover {
+    background-color: #458b00;
+    color:#fff;
+}
+
+.tre1 {
+	background:#eee url(https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/128/_app_store_128.png) no-repeat 10px center;
+}
+
+.tre2 {
+	background:#eee url(https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/128/_app_store_128.png) no-repeat 10px center;
+}
+
+
+.tre3 {
+	background:#eee url(https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/128/_app_store_128.png) no-repeat 10px center;
+}
+
+
+.tre4 {
+	background:#eee url(https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/128/_app_store_128.png) no-repeat 10px center;
+}
+
+
+.list {
+	width: 910px;
+	/*height: 1200px; 自行調整 */ 
+	background-color: white;
+	float: left;
+
+}  
+
+.sublist {
+	height: 45px;
+	line-height: 45px;
+	background-color:#ccc;
+	margin:0 0 20px 0;
+}
+
+.subleft {
+	display: inline-block;
+	float:left;
+}
+
+.subleft > li {                    /*li本身也是獨佔的，改成inline-block即可 */
+	display: inline-block;
+	background-color: #ccc; 
+	width: 150px;
+	height: 43px;
+	text-align: center;
+	border-top: 2px solid #ccc;
+}
+
+
+.subleft > li:first-child {                  /*針對li的第一個項目選擇編輯 */
+	background-color: #fff; 
+	border-top: 2px solid #458b00;           /*上面一條綠線 */
+}
+
+
+.subright {
+	display: inline-block;
+	float: right;
+}
+
+
+.subright > li {   
+	display:inline-block;
+	text-align: center;
+	background-color: #ccc;
+	width: 50px;
+	height: 45px; 	
+}
+
+
+/*.selected {                                  subright第一標籤的選定狀態 
+    background-color:#458b00;
+    color: white;
+}*/
+
+
+.subright > li > a:hover {   
+	display:block;
+	width: 50px;
+	height: 45px;
+	line-height: 45px;
+    color:#999;
+	color: white;
+	background-color: #458b00;
+}
+
+/*新段落*/
+
+
+.tcfig {
+	width: 910px;
+	padding: 0;
+	height: 300px;	
+	margin: 0 0 20px 0;
+	background-color:#eee;
+    border:1px solid #eee;
+    position: relative;
+}
+
+.tcfig > img {
+	width: 410.5px;
+	height: 299.5px;
+
+}
+
+.tcfig > figurecaption {
+	width: 499.5px;
+	height: 299.5px;
+    float: right;
+    background-color: #fafafa;
+}
+
+
+.article > footer {
+	width: 499.5px;
+	height: 30px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-indent: 25px;
+    background-color: #fafafa;
+    position: absolute;
+    bottom: 0px;
+}
+
+.article > footer > time {
+    color: #458b00;
+}
+
+
+
+.articleh2 {
+     font-size: 24px;
+     color: #333;
+     font-weight: normal;
+     padding: 10px 0 10px 25px;
+}
+
+
+.articleh3 {
+	font-size: 16px;
+     color: #666;
+     line-height: 2;
+     font-weight: normal;
+     padding: 10px 0 10px 25px;
+}
+
+.article > ol {
+	 padding: 10px 0 10px 25px;
+	 color: #666;
+	 line-height: 1.5;
+}
+
+
+.article > ol > li > mark {
+	background-color: #fff;
+	border: 1px solid #458b00;
+	border-radius: 3px;
+	padding: 0 5px;
+	color:#458b00;
+	line-height: 2;
+}
+
+.buy {
+	float:right;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.price {
+	color: #f60;
+	font-size: 20px;
+	float:left;
+	position: absolute;
+	right: 25px;
+	top: 125px;	
+}
+
+.price > strong {
+	color: #f60;
+	font-size: 36px;
+
+}
+
+
+.price > s {
+	color: #999;
+	font-size: 16px;
+
+}
+
+.type {
+	width: 90px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#59b200;
+	color:white;
+	position: absolute;
+	left: 2px;
+	top: 2px;	
+}
+
+
+
+
+
+.dis {
+    display: inline-block;
+	width: 152px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 4px;
+	background-color: #f60;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	top: 170px;	
+}
+
+
+.distag {
+
+	width: 52px;
+	height: 52px;
+	display: block;
+	font-size: 14px;
+	color: #ff7a4d;
+	transform: rotate(45deg);    /*旋轉 */
+	text-indent: 7px;
+	padding: 5px 0 0 0;
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+.more {
+	width: 200px;
+	height: 50px; 
+	line-height: 50px;
+	text-align: center;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	font-size:18px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #fafafa;
+}
