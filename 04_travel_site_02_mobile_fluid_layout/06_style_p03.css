@@ -1,0 +1,663 @@
+@charset"utf-8";
+
+html {                      /*建立網頁的比例*/
+	font-size: 625%; 
+}
+
+
+/*固定CSS設置*/
+
+body,h1,h2,h3,h4,p,ul,ol,form,fieldset,figure {
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaheiUI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    font-size: 0.16rem;   
+}
+
+ul,ol {
+    list-style: outside none none;
+}
+
+a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 0.16rem;
+}
+
+
+div, figure, figcaption {   /*全部算在總的內*/
+	box-sizing: border-box;  /*！！！限定div總高度，不管怎麼擠都不影響結果（依照center的height來決定）*/
+}
+
+.none {                     /*部分隱藏*/
+    display: none;
+}
+
+
+/*新段落*/
+
+
+.header {
+	width:100%;  
+	top:0;                  /*！！重要！！不要覆蓋導航*/
+	z-index: 9999;          /*！！重要！！不要覆蓋導航*/
+	height:0.45rem;
+	background-color:#000;
+	margin:0 auto;
+	position: fixed;        /*！！重要！！保持導航在上方*/
+	
+}
+
+.link {
+    height: .45rem;
+    line-height: .45rem;
+    color: #000;
+    display: block;
+}
+
+
+.link > li {
+	width: 25%; 
+	text-align: center;
+	float: left;
+}
+
+
+
+
+.link  > li > a {     /*預防每個地方不同分別設置*/
+    color: #eee;
+    display: block;  /*為了讓點擊範圍不限於文字，故設定為區塊，就能夠延伸*/
+} 
+
+
+
+.link  > li > a:hover, .active  {   /*設定鼠標*/ /*保持選定鼠標狀態*/ 
+	background-color: #333;  /*設定鼠標*/	
+}
+
+/*新段落*/
+
+.upphoto {
+	width:100%;  /*不出現滾動條*/
+	height: 1.4rem;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTakJeUv1_oBp0VwAFfkE2UrykaDcfcx8aLelqhiSJyuGwz8lvw) ; 
+    position:relative;  /*為了讓搜索框在正中間所設的相對點*/
+    background-repeat: no-repeat;   /*!!正確用法*/
+    background-position: center;
+}
+
+
+.upphoto > img {
+	display: block; /*將預設的inlien-block改成bolock*/
+	max-width: 6.4rem; /*相對而非絕對設定方法*/ 
+	
+}	
+
+/*新段落*/
+
+
+.footer {
+	max-width: 6.4rem;
+	max-height: 0.5rem;
+    background-color: #000;
+    color: #777;
+    margin:0 auto;
+    text-align: center;
+    padding: .2rem 0;
+}
+
+.top {
+	padding: 0 0 0.1rem 0;
+}
+
+   
+.clearfix:after {      /*重要技巧：插入物件清理浮動！！*/
+	content:"." ;      /*clear:bot;也可以*/
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+/*新段落*/
+
+.center {
+	max-width: 6.4rem;
+	height: .5rem;
+	margin: 0 auto;
+	background-color: #ddd;
+	padding: 0.1rem 0 0 0 ;
+	position: relative;
+}
+
+
+.input {
+	width: 95%;
+	height: .27rem;
+	border-radius: .04rem;
+	border:none;
+	outline:none;  
+	background-color: #fff;
+	display: block;  /*區塊才能居中*/
+	margin:  0 auto;
+	font-size: .14rem;
+	padding: 0 .05rem;
+}
+
+
+.button {
+	display: block;
+	outline: none;
+	width: .5rem;
+	height:.27rem;
+	color: #666;
+	border:none;
+	border-top-right-radius: .04rem;
+	border-bottom-right-radius: .04rem;
+    position: absolute;
+	top:0.10rem;
+	right:1.7%;
+	background-color: #eee;
+}
+
+.tour {
+	max-width: 6.4rem;
+	margin: .1rem auto 0 auto;
+}
+
+.tour > h2 {
+	text-align: center;
+	color: #666 ;
+	font-size: .22rem;
+}
+
+.tour > h3 {
+	text-align: center;
+	color: #666 ;
+	font-weight: normal;
+	font-size: .16rem;
+	margin:.05rem 0 .1rem 0;
+}
+
+
+/*新段落*/
+
+/*媒體查詢 ------>>>字體的自適應！*/
+
+/*媒體查詢，大於480px小於640*/
+
+@media(min-width: 480px) and (max-width: 640px) {
+	.tour > h2 {
+		font-size: .20rem;
+	}
+
+	.tour > h3, .footer, p, h4, .info, .list {
+		font-size: .11rem;
+	}
+
+	.footer {
+		font-size: .16rem
+	}
+
+
+    .headline > h2 {
+        font-size: .22rem;
+    }
+  
+    .headline > h3 {
+        font-size: .16rem;
+    }
+
+    .list > h2 {
+    	 font-size: .2rem;
+    }
+
+    
+
+}
+
+
+/*媒體查詢，小於480*/
+
+@media(max-width:480px)  {
+	.tour > h2 {
+		font-size: .20rem;
+	}
+
+	.tour > h3, .footer, figcaption, .info, .list  {
+		font-size: .14rem;
+	}
+
+	.footer {
+		font-size: .13rem
+	}
+
+    .headline > h2 {
+        font-size: .18rem;
+    } 
+
+    .headline > h3 {
+        font-size: .12rem;
+    }
+
+    .list > h2 {
+    	 font-size: .17rem;
+    }
+
+    .min {
+    	display: none;
+    }
+
+}
+
+
+/*新段落*/
+
+/*
+.midbox {
+	max-width: 6.4rem;
+	max-height: 3.5rem;
+	margin: 0 auto;
+	background-color: red;
+	background-position: center;
+	padding: 0.1rem 0 0 0 ;	
+}
+似乎沒什麼用處  */
+
+.fig {
+	width:50%;
+	float: left;
+	background-color: #eee;
+	font-size: .16rem;
+	padding: 0 0 .05rem 0;
+}
+
+.fig > img {
+    padding: .02rem;
+    vertical-align: middle;   /*新功能*/
+    border-radius: .04rem;	
+}
+
+.fig > figcaption {
+	color: #666;
+	padding:0;
+	margin: 0;
+}
+
+.fig > figcaption > h4 {
+	display: block;
+	font-weight: normal;
+	font-size: .16rem;
+	white-space: nowrap;  /*保持不換行-目前無效果*/
+	overflow: hidden;     /*溢出部分隱藏*/
+	text-overflow: ellipsis; /*溢出部分用點點*/
+}
+
+
+.fig > figcaption > p {
+	white-space: nowrap;  /*保持不換行-目前無效果*/
+	overflow: hidden;     /*溢出部分隱藏*/
+	text-overflow: ellipsis; /*溢出部分用點點*/
+}
+
+.info {
+	padding: .1rem 0 0 0;
+	font-size: .16rem;
+}
+
+.price {
+	color: #f60;
+}
+
+.price > strong {
+	letter-spacing: .01rem;
+}
+
+.sat {
+	position: relative;
+	float: right;
+	right: .05rem;
+	font-style: normal;
+}
+
+/*就此部分再回頭補充媒體查詢*/
+
+@charset"utf-8";
+
+.headline {
+	max-width: 6.4rem;
+    margin: 0 auto;
+    padding: .09rem 0 0 0;   
+    position: relative;
+}
+
+.headline > h2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color:#eee;
+}
+
+
+.headline > h3 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color:#eee;
+}
+
+/*就此部分再回頭補充媒體查詢*/
+
+
+.list {
+	font-size: .16rem;
+	color: #666;
+	max-width: 6.4rem;
+	margin: .2rem auto;
+	padding: 0 .2rem;
+}
+
+.list > section > h2 {
+	font-size: .2rem;
+	border-bottom: .01rem dashed #999;
+	padding: 0 0 .2rem 0,
+}
+
+
+/*新段落*/
+
+.about > section > p {
+	line-height: 2;
+	margin: .2rem 0;
+}
+
+.about > section > address {
+	font-style:normal;
+	margin:  .2rem 0;
+	line-height: 1.6;
+}
+
+
+/*新段落*/
+
+
+.information > h2 {
+	font-size: .2rem;
+	border-bottom: .01rem dashed #999;
+	padding: 0 0 .5rem 0,
+}
+
+.information > figure:after {      /*重要技巧：直接到上一層(本體)去清理浮動！！，同時達到自適應*/
+	content:"." ;      
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.information > figure {
+    border: 1px solid #eee;
+	margin: .15rem 0 0 0;
+	position: relative;
+}
+
+
+.information > figure > img {
+    width: 50%;
+    float: left;
+}
+
+.informaiton > figcaption {
+    width: 50%;
+    float: right;
+}
+
+.title {
+	border:none;
+	padding: 0 0 0  0.5rem 0;
+	display: -webkit-box;  /*以下為谷歌的私有屬性:避免螢幕在320以下字都擠在一起*/
+	overflow: hidden;
+	-webkit-line-clamp: 1;  /*不得大於1行*/
+	-webkit-box-orient:vertical;    
+}
+
+.small_title {
+    font-weight: normal;
+    padding: 0;
+    display: -webkit-box;  /*以下為谷歌的私有屬性:避免螢幕在320以下字都擠在一起*/
+	overflow: hidden;
+	-webkit-line-clamp: 2;  /*不得大於2行*/
+	-webkit-box-orient:vertical;    
+}
+
+
+.price {
+	color:#f60;
+	position: absolute;
+	bottom: 0;
+	left:50%;
+}
+
+.price > strong {
+	font-size: .26rem;
+}
+
+
+@charset "utf-8";
+
+.link  > li > a:hover, .link  > li.active a {   /*設定鼠標*/ /*保持選定鼠標狀態*/ 
+	background-color: black;  /*設定鼠標*/	
+}
+
+.headline {
+	width: 1920px;  /*不出現滾動條*/
+	height: 300px;
+}
+
+.h-center {
+	width: 1263px;
+	height: 300px;
+    margin: 0 auto;
+}
+
+hgroup {
+	padding: 100px 0 0 50px;
+}
+
+hgroup > h2 {
+	color:#eee;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+
+hgroup > h3 {
+	color:#eee;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.hg2 {
+     padding: 0 ;
+     margin:  0;
+}
+
+
+
+.list {
+	background-color: white;
+}  
+
+.container {
+	width:1263px;
+	/*height: 1200px; 讓網頁自己調整 */
+	margin: 30px auto;
+}
+
+
+.ticket{
+	color: #666;
+	font-size: 20px;
+}
+
+.ticket > form > h2 {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #999;
+	padding:  0 0 20px 0;
+}
+
+.tickettype {
+	margin: .2rem 0 .2rem 0;
+}
+
+.tickettype > p > mark {
+	color:#fff;
+	background-color: #458b00;
+	padding: .05rem .08rem;
+	border-radius: .04rem;
+	margin: 0 .01rem 0 .16rem;
+}
+
+.tickettype > p {
+	margin: 0.1rem 0;
+}
+
+.tickettype > p > label {
+	display: block;
+	margin: 0 0 0.5rem 0;
+	font-size: .16rem;
+}
+
+
+input {
+	width: 97%;
+	height: .2rem;
+	border: 1px solid #ccc;
+	background-color:#fff;
+	border-radius: .04rem;
+	padding: .05rem;
+	color: #666;
+	
+}
+
+.ticketright > p > label {
+    display: block;
+    margin: 0 0 .05rem 0;
+}
+
+.ticketleft > p > label {
+   display: block;
+    margin: 0 0 .05rem 0;
+}
+
+
+
+
+.ticketsubmit {
+	display: block;
+	width: 30%;
+	border-radius: .04rem;
+	background-color: #f60;
+	color: #fff;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	padding: .1rem;
+	margin: 0 auto;
+}
+
+
+
+
+/*新段落*/
+
+
+.new > h2 {
+	border-bottom: .1rem dashed #999;
+	padding:  0 0 .2rem 0;
+}
+
+.new > ul {
+	margin: .2rem 0 0 0;
+}
+
+.new > ul > li {
+	display: inline-block;
+	padding:  5px 5px 10px 10px;
+}
+
+.new > ul > li:nth-child(2) {
+	background-color: #458b00;
+	border-radius: 4px;
+	color: white;
+}
+
+.table {
+	padding: 20px 0 0 0;
+	width: 100%;
+	border:  1px solid #ddd;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.table > tr > th {
+	border:  1px solid #ddd;
+}
+
+.table > thead > tr > th {
+    height: 50px;
+	line-height: 50px;
+	border-bottom:   1px solid #ddd;
+}
+
+.table > tbody > tr > td {
+	height: 50px;
+	line-height: 50px;
+	border-bottom:  1px solid #ddd;
+}
+
+.table > tfoot > tr > td {
+	height: 50px;
+	line-height: 50px;
+	border-bottom:  1px solid #ddd;
+}
+
+.table > tbody > tr:nth-child(2n) {     /*選取雙數反差呈現*/
+    background-color: #eee;
+}
+
+.table > tbody > tr:hover {     /*選取雙數反差呈現*/
+    background-color: #ccc;
+}
+
+.trprice {
+	color: #f60;
+}
+
+.tablemore{   
+	color: #666 ;
+}
+
+.tbodyreserve {
+	display: inline-block;    /*使其自動居中*/
+	width: .6rem;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 4px;
+	background-color: #f60;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+/*就此部分再回頭補充媒體查詢*/
