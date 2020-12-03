@@ -1,0 +1,3982 @@
+/*固定設置*/
+
+
+body, header, ul, p ,hr, .type1, figure {
+  margin:0px;
+  padding:0px;
+}
+
+a {
+  text-decoration:none;
+}
+
+ul {
+  list-style:outside none none;
+}
+
+body{
+  background-color:white;
+}
+
+.divhr {
+  width:90%;
+  display:inline-block;
+  margin: 50px 0 0 0 ;
+}
+
+
+
+
+
+.divhr2 {
+  width:90%;
+  display:inline-block;
+  margin: 25px 0 0 0 ;
+}
+
+  .btn-primary {
+    background-color:#eee;
+    height:32px;
+  }
+
+
+  .btn-danger {
+    background-color:#eee;
+    height:32px;
+  }
+
+  .btn-info {
+    background-color:#eee;
+    height:32px;
+  }
+
+
+/*段落一：上頭橫幅*/
+@media (min-width: 1600px)  {
+  
+.header{
+       width:100%;
+       height:70px;
+       background-color:#135;
+       position:fixed;
+     }
+
+.logo{
+       width:200px;
+       float:left;
+       margin: 0 auto;
+       text-align:center;
+     }
+
+.logo-text {
+         color: white;
+         font-family: Lobster, Monospace;
+         margin: 10px auto;
+     }
+  
+.logo-text2 {
+         color:white;
+         font-family: Lobster, Monospace;
+         margin: 20px 0  0px 0; 
+         padding-bottom:10px;
+     }
+  
+.logo-text3 {
+         color: white;
+         font-family: Lobster, Monospace;
+         margin: 0px 0  0px 0; 
+     }
+
+ .center{
+       width:1263px;
+       height:70px;
+       margin:0 auto;
+     }
+
+ .link{
+       width:650px;
+       height:70px;
+       line-height:70px;
+       float:right;
+     }
+
+ .link > li {
+       width:120px;
+       text-align:center;
+       float:left;
+     }
+     
+ .link > li > a {
+       color:white;
+       display:block;
+     }
+
+  .link > li > a:hover, .link > .hand {
+       background-color:gray;
+     }
+  
+  
+/*段落二：*/
+  
+  #major1 {
+    width:80%;
+    background-color:#eee;
+    margin:0 auto;
+    position:
+  }
+  
+ .major1-intro {
+    width:80%;
+    min-height:400px;
+    background-color:#135;
+    margin:0px auto; 
+    text-align:center;
+  }
+  
+ .major1-intro2 {
+    width:80%;
+    height:150px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+
+ .major1-intro3 {
+    width:80%;
+    height:40px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+ 
+ .insidebox {
+    width:100%;
+    height:400px;
+    display:inline-block;
+    text-align:center;
+  }
+  
+ .boxp{
+    text-align:center;
+    width:100%;
+    height:100px;
+    diplay:inline-block;
+  }
+  
+ .boxp> p {
+    width:90%;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    letter-spacing:1px;
+    margin:30px 0 0px 50px;
+  }
+  
+ .photo1{
+  width:150px;
+  height:100px;
+  background-size:cover;
+  margin: 20px 0 0px 20px;
+  border-radius:80%;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  display:inline-block;
+}
+
+  
+/*新段落*/
+  
+  .insidebox2 {
+    background-color :#135;
+    width:40%;
+    height:350px;
+    margin: 5% 5% 5% 5%;
+    float:left;
+    margin-top:20px;    
+    diplay:block;
+  }
+  
+  .insidebox4 {
+    background-color :#135;
+    width:90%;
+    height:350px;
+    margin: 5% 5% 7% 5%;
+    float:left;
+    margin-top:20px;    
+    diplay:block;   
+  }
+  
+  .insidebox5 {
+    background-color :#135;
+    width:40%;
+    height:350px;
+    margin:0 auto;
+    float:left;
+    margin:20px  20px  20px  70px;    
+    diplay:block;
+  }
+  
+  .insidebox6 {
+    background-color :#135;
+    width:80%;
+    height:100px;
+    margin:10px 0 0 120px;
+    float:left;
+
+    diplay:block;
+  }
+  
+  .fig {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+  } 
+   
+  .fig12 {
+    width:98%;
+    height:300px;
+    background-color:#eee;
+    display:block;
+    margin: 0 auto;
+    margin: 0 0 0 10px;
+    float:left; 
+  } 
+  
+  .fig3 {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+    float:left;
+  }
+  
+  .imgbox {
+    width:30%;
+    height:80%;
+    margin:25px 0 0 28px;
+    padding: 8px 0 0 0 ;
+    background-color:#ccc;
+    display:inline-block;
+    float:left;
+  }
+  
+  .figcap {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }  
+  
+  .figcap2 {
+    width:98.5%;
+    height:43px;
+    margin: 0 0 0 150px;
+  }
+  
+  .button {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+    background-color:#FFF;
+    
+  }
+  
+  .button2 {
+    width:100%
+    height:30px;
+    padding:15px 0  10px 0 ;
+    background-color:#eee;
+  }
+  
+  .button3 {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+     background-color:#135;
+     color:#fff;
+     text-align:left;
+     
+  }
+  
+  .button3 > a{
+    color:white;
+  }
+  
+   .button3 > a :hover {
+      Font-style:italic;
+  }
+  
+  .figcap2 {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }
+  
+  .insidebox3 {
+    width:100%;
+    height:20px;
+    display:inline-block;
+    text-align:center;
+    background-color:#135;
+  }
+  
+  .type1 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#59b200;
+	color:white;
+  float:left;
+}
+  
+  .type2 {
+	width: 250px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#DB7093;
+	color:white;
+  float:left;
+}
+  
+  .type3 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#87CEEB;
+	color:white;
+  float:left;
+}
+  
+  .type4 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#CD853F;
+	color:white;
+  float:left;
+}
+  
+  .type5 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#FF69B4;
+	color:white;
+  float:left;
+}  
+  
+/*新段落*/
+
+  .img11 {
+    width:95%;
+    height:85%;
+    margin: 0 auto;
+  } 
+  
+  
+  .img12 {
+    width:95%;
+    height:80%;  
+    
+  } 
+ 
+  .btnpinterest {
+    width:50px;
+    height:50px;
+    margin: 0 auto;
+    background-color:#fff;
+  }
+  
+/*新段落*/
+
+  #tea2 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee2 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#20B2AA;
+
+  opacity:0.9;
+
+}
+  
+  #milk2 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#20B2AA;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk2 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words2 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea3 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee3 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#F08080;
+
+  opacity:0.9;
+
+}
+  
+ #milk3 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#F08080;
+  float:left;
+  background-image:url(https://goo.gl/e2c6dJ);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk3 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words3 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+
+  #tea {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DAA520;
+ 
+  opacity:0.9;
+
+}
+  
+  #milk {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#F0E68C;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea4 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee4 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#9ACD32;
+
+  opacity:0.9;
+
+}
+  
+ #milk4 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#9ACD32;
+  float:left;
+  background-image:url(https://goo.gl/5gKGYc);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk4 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words4 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/  
+
+
+
+
+ #tea5 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee5 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#87CEFA;
+
+  opacity:0.9;
+
+}
+  
+ #milk5 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#87CEFA;
+  float:left;
+  background-image:url(https://goo.gl/82eNzT);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk5 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words5 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+ 
+
+  #tea6 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee6 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#191970;
+
+  opacity:0.9;
+
+}
+  
+  #milk6 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#191970;
+  float:left;
+  background-image:url(https://goo.gl/G114ju);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk6 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words6 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+/*新段落*/  
+  
+
+  #tea7 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee7 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#DB7093;
+
+  opacity:0.9;
+
+}
+  
+  #milk7 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#DB7093;
+  float:left;
+  background-image:url(https://goo.gl/PtWKkq);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk7 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+ .words7 {
+    color:white;
+    opacity:1 !important ;
+  }
+     
+ /*新段落*/
+  
+ #tea8 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;    
+}
+
+ #coffee8 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  opacity:0.9;
+}
+  
+ #milk8 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  float:left;
+  background-image:url(https://goo.gl/CA82bd);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk8 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+ .words8 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+ /*新段落*/
+  
+ #tea11 {
+  width:98%;
+  height:85%;
+  margin: 0 auto;
+  background-color:#eee;    
+}
+
+ #coffee11 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:			#E0FFFF;
+  opacity:0.9;
+}
+  
+ #milk11 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:			#E0FFFF;
+  float:left;
+  background-image:url(https://goo.gl/XLAoce);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk11 >  a :hover {
+    background-image:red;
+    opacity:0;
+}
+
+   #milk12 >  a :hover {
+    background-image:red;
+    opacity:0;
+}
+
+  
+/*新段落*/
+  
+  footer{
+  width:100%;
+  height:100px;
+  background-color:#135;
+  text-align:center;
+}
+ 
+  .name {
+  color:#fff;
+  margin:20px 0 0 0 ;
+}
+
+   p6 > a {
+  color:orange;
+}
+  
+  .insidebox7 {
+    width:100%;
+    display:inline-block;
+    text-align:center;
+  }
+  
+  .form {
+     width:35%;
+     height:65%;
+     background-color:#135;
+     margin: 10px 0 50px 110px;
+    float:left;
+    }
+  
+  .form2 {
+     width:35%;
+     height:165px;
+     background-color:#135;
+     margin: 0 0 50px 110px;
+    float:left;
+      
+    }
+  
+  .input {
+      width:80%;
+      height:50px;
+      border:none;
+      border-bottom: 2px solid #ccc;
+      background-color:#B0E0E6;
+      margin-top:15px;
+      color:white;
+    
+    }   
+
+  .inputbut {
+    height:52px;
+    background-color:#00BFFF;
+    color:black;
+  }  
+  
+  .freecodecamp {
+    width:60px;
+    height:60px;
+    opacity:0.6;
+  }
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+
+ .header{
+       width:100%;
+       height:70px;
+       background-color:#135;
+       position:fixed;
+     }
+
+.logo{
+       width:200px;
+       float:left;
+       margin: 0 auto;
+       text-align:center;
+     }
+
+.logo-text {
+         color: white;
+         font-family: Lobster, Monospace;
+         margin: 10px auto;
+     }
+  
+.logo-text2 {
+         color:white;
+         font-family: Lobster, Monospace;
+         margin: 20px 0  0px 0; 
+         padding-bottom:10px;
+     }
+  
+.logo-text3 {
+         color: white;
+         font-family: Lobster, Monospace;
+         margin: 0px 0  0px 0; 
+     }
+
+ .center{
+       width:1263px;
+       height:70px;
+       margin:0 auto;
+     }
+
+ .link{
+       width:650;
+       height:70px;
+       line-height:70px;
+       float:right;
+     }
+
+ .link > li {
+       width:120px;
+       text-align:center;
+       float:left;
+     }
+     
+ .link > li > a {
+       color:white;
+       display:block;
+     }
+
+  .link > li > a:hover, .link > .hand {
+       background-color:gray;
+     }
+  
+  
+/*段落二：*/
+  
+  #major1 {
+    width:100%;
+    background-color:#eee;
+    margin:0 auto;
+    position:
+  }
+  
+ .major1-intro {
+    width:80%;
+    min-height:400px;
+    background-color:#135;
+    margin:0px auto; 
+    text-align:center;
+  }
+  
+ .major1-intro2 {
+    width:80%;
+    height:150px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+
+ .major1-intro3 {
+    width:80%;
+    height:40px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+ 
+ .insidebox {
+    width:100%;
+    height:400px;
+    display:inline-block;
+    text-align:center;
+  }
+  
+ .boxp{
+    text-align:center;
+    width:100%;
+    height:100px;
+    diplay:inline-block;
+  }
+  
+ .boxp> p {
+    width:90%;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    letter-spacing:1px;
+    margin:30px 0 0px 50px;
+  }
+  
+ .photo1{
+  width:150px;
+  height:100px;
+  background-size:cover;
+  margin: 20px 0 0px 20px;
+  border-radius:80%;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  display:inline-block;
+}
+
+  
+/*新段落*/
+  
+  .insidebox2 {
+    background-color :#135;
+    width:40%;
+    height:350px;
+    margin: 5% 5% 5% 5%;
+    float:left;
+    margin-top:20px;    
+    diplay:block;
+  }
+  
+  .insidebox4 {
+    background-color :#135;
+    width:90%;
+    height:350px;
+    margin: 5% 5% 7% 5%;
+    float:left;
+    margin-top:20px;    
+    diplay:block;   
+  }
+  
+  .insidebox5 {
+    background-color :#135;
+    width:40%;
+    height:350px;
+    margin:0 auto;
+    float:left;
+    margin:20px  20px  20px  70px;    
+    diplay:block;
+  }
+  
+  .insidebox6 {
+    background-color :#135;
+    width:80%;
+    height:100px;
+    margin:10px 0 0 120px;
+    float:left;
+
+    diplay:block;
+  }
+  
+  .fig {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+  } 
+   
+  .fig12 {
+    width:98%;
+    height:300px;
+    background-color:#eee;
+    display:block;
+    margin: 0 auto;
+    margin: 0 0 0 10px;
+    float:left; 
+  } 
+  
+  .fig3 {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+    float:left;
+  }
+  
+  .imgbox {
+    width:30%;
+    height:80%;
+    margin:25px 0 0 28px;
+    padding: 8px 0 0 0 ;
+    background-color:#ccc;
+    display:inline-block;
+    float:left;
+  }
+  
+  .figcap {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }  
+  
+  .figcap2 {
+    width:98.5%;
+    height:43px;
+    margin: 0 0 0 150px;
+  }
+  
+  .button {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+    background-color:#FFF;
+    
+  }
+  
+  .button2 {
+    width:100%
+    height:30px;
+    padding:15px 0  10px 0 ;
+    background-color:#eee;
+  }
+  
+  .button3 {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+     background-color:#135;
+     color:#fff;
+     text-align:left;
+     
+  }
+  
+  .button3 > a{
+    color:white;
+  }
+  
+  .button3 > a :hover {
+      Font-style:italic;
+  }
+  
+  .figcap2 {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }
+  
+  .insidebox3 {
+    width:100%;
+    height:20px;
+    display:inline-block;
+    text-align:center;
+    background-color:#135;
+  }
+  
+  .type1 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#59b200;
+	color:white;
+  float:left;
+}
+  
+  .type2 {
+	width: 250px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#DB7093;
+	color:white;
+  float:left;
+}
+  
+  .type3 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#87CEEB;
+	color:white;
+  float:left;
+}
+  
+  .type4 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#CD853F;
+	color:white;
+  float:left;
+}
+  
+  .type5 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#FF69B4;
+	color:white;
+  float:left;
+}  
+  
+/*新段落*/
+
+  .img11 {
+    width:95%;
+    height:85%;
+    margin: 0 auto;
+  } 
+  
+  
+  .img12 {
+    width:95%;
+    height:80%;  
+    
+  } 
+ 
+  .btnpinterest {
+    width:50px;
+    height:50px;
+    margin: 0 auto;
+    background-color:#fff;
+  }
+  
+/*新段落*/
+
+  #tea2 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee2 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#20B2AA;
+
+  opacity:0.9;
+
+}
+  
+  #milk2 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#20B2AA;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk2 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+.words2 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea3 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee3 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#F08080;
+
+  opacity:0.9;
+
+}
+  
+  #milk3 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#F08080;
+  float:left;
+  background-image:url(https://goo.gl/e2c6dJ);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk3 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words3 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+
+  #tea {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DAA520;
+ 
+  opacity:0.9;
+
+}
+  
+  #milk {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#F0E68C;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea4 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee4 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#9ACD32;
+
+  opacity:0.9;
+
+}
+  
+ #milk4 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#9ACD32;
+  float:left;
+  background-image:url(https://goo.gl/5gKGYc);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk4 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words4 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/  
+
+
+
+
+ #tea5 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee5 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#87CEFA;
+
+  opacity:0.9;
+
+}
+  
+ #milk5 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#87CEFA;
+  float:left;
+  background-image:url(https://goo.gl/82eNzT);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk5 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words5 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+ 
+
+  #tea6 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee6 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#191970;
+
+  opacity:0.9;
+
+}
+  
+  #milk6 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#191970;
+  float:left;
+  background-image:url(https://goo.gl/G114ju);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk6 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words6 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+/*新段落*/  
+  
+
+  #tea7 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee7 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#DB7093;
+
+  opacity:0.9;
+
+}
+  
+  #milk7 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#DB7093;
+  float:left;
+  background-image:url(https://goo.gl/PtWKkq);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk7 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+ .words7 {
+    color:white;
+    opacity:1 !important ;
+  }
+     
+ /*新段落*/
+  
+ #tea8 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;    
+}
+
+ #coffee8 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  opacity:0.9;
+}
+  
+ #milk8 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  float:left;
+  background-image:url(https://goo.gl/CA82bd);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk8 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+ .words8 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+/*新段落*/
+  
+  footer{
+  width:100%;
+  height:100px;
+  background-color:#135;
+  text-align:center;
+}
+ 
+  .name {
+  color:#fff;
+  margin:20px 0 0 0 ;
+}
+
+   p6 > a {
+  color:orange;
+}
+  
+  .insidebox7 {
+    width:100%;
+    min-height:350px;
+    display:inline-block;
+    text-align:center;
+  }
+  
+  .form {
+     width:35%;
+     height:65%;
+     background-color:#135;
+     margin: 50px 0 50px 110px;
+    float:left;
+    }
+  
+  .form2 {
+     width:35%;
+     height:165px;
+     background-color:#135;
+     margin: 0 0 50px 110px;
+    float:left;
+      
+    }
+  
+  .input {
+      width:80%;
+      height:50px;
+      border:none;
+      border-bottom: 2px solid #ccc;
+      background-color:#B0E0E6;
+      margin-top:15px;
+      color:white;
+    
+    }   
+
+  .inputbut {
+    height:52px;
+    background-color:#00BFFF;
+    color:black;
+  }  
+  
+  .freecodecamp {
+    width:60px;
+    height:60px;
+    opacity:0.6;
+  }
+  
+  .divhrsec7 {
+  width:90%;
+  display:inline-block;
+  margin: 80px 0 0 0 ;
+}
+   
+
+
+
+}
+
+@media (min-width: 970px) and (max-width: 1199px) {
+
+ .header{
+       width:100%;
+       height:70px;
+       background-color:#135;
+       position:fixed;
+     }
+  
+ .center{
+       width:1263px;
+       height:70px;
+       margin:0 auto;
+     }
+
+
+.logo{
+     display:none;
+     }
+
+.logo-text {
+     display:none;
+     }
+  
+.logo-text2 {
+         color:white;
+         font-family: Lobster, Monospace;
+         margin: 20px 0  0px 0; 
+         padding-bottom:10px;
+     }
+  
+.logo-text3 {
+         color: white;
+         font-family: Lobster, Monospace;
+         margin: 0px 0  0px 0; 
+     }
+
+
+ .link{
+       width:90%;
+       height:70px;
+       line-height:70px;
+       float:right;
+       
+
+     }
+
+
+ .link > li {
+       width:120px;
+       text-align:center;
+       float:left;
+     }
+     
+ .link > li > a {
+       color:white;
+       display:block;
+     }
+
+  .link > li > a:hover, .link > .hand {
+       background-color:gray;
+     }
+  
+  
+/*段落二：*/
+  
+  #major1 {
+    width:100%;
+    background-color:#eee;
+    margin:0 auto;
+    position:
+  }
+  
+ .major1-intro {
+    width:100%;
+    min-height:400px;
+    background-color:#135;
+    margin:0px auto; 
+    text-align:center;
+  }
+  
+ .major1-intro2 {
+    width:80%;
+    height:150px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+
+ .major1-intro3 {
+    width:80%;
+    height:40px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+ 
+ .insidebox {
+    width:100%;
+    height:400px;
+    display:inline-block;
+    text-align:center;
+  }
+  
+ .boxp{
+    text-align:center;
+    width:100%;
+    height:100px;
+    diplay:inline-block;
+  }
+  
+ .boxp> p {
+    width:90%;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    letter-spacing:1px;
+    margin:30px 0 0px 50px;
+  }
+  
+ .photo1{
+  width:150px;
+  height:100px;
+  background-size:cover;
+  margin: 20px 0 0px 20px;
+  border-radius:80%;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  display:inline-block;
+}
+
+  
+/*新段落*/
+  
+  .insidebox2 {
+    background-color :#135;
+    width:40%;
+    height:350px;
+    margin: 5% 5% 5% 5%;
+    float:left;
+    margin-top:20px;    
+    diplay:block;
+  }
+  
+  .insidebox4 {
+    background-color :#135;
+    width:90%;
+    height:350px;
+    margin: 5% 5% 7% 5%;
+    float:left;
+    margin-top:20px;    
+    diplay:block;   
+  }
+  
+  .insidebox5 {
+    background-color :#135;
+    width:40%;
+    height:350px;
+    margin:0 auto;
+    float:left;
+    margin:20px  20px  20px  70px;    
+    diplay:block;
+  }
+  
+  .insidebox6 {
+    background-color :#135;
+    width:80%;
+    height:100px;
+    margin:10px 0 0 120px;
+    float:left;
+
+    diplay:block;
+  }
+  
+  .fig {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+  } 
+   
+  .fig12 {
+    width:98%;
+    height:300px;
+    background-color:#eee;
+    display:block;
+    margin: 0 auto;
+    margin: 0 0 0 10px;
+    float:left; 
+  } 
+  
+  .fig3 {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+    float:left;
+  }
+  
+  .imgbox {
+    width:30%;
+    height:80%;
+    margin:25px 0 0 28px;
+    padding: 8px 0 0 0 ;
+    background-color:#ccc;
+    display:inline-block;
+    float:left;
+  }
+  
+  .figcap {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }  
+  
+  .figcap2 {
+    width:98.5%;
+    height:43px;
+    margin: 0 0 0 150px;
+  }
+  
+  .button {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+    background-color:#FFF;
+    
+  }
+  
+  .button2 {
+    width:100%
+    height:30px;
+    padding:15px 0  10px 0 ;
+    background-color:#eee;
+  }
+  
+  .button3 {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+     background-color:#135;
+     color:#fff;
+     text-align:left;
+     
+  }
+  
+  .button3 > a{
+    color:white;
+  }
+  
+  .button3 > a :hover {
+      Font-style:italic;
+  }
+  
+  .figcap2 {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }
+  
+  .insidebox3 {
+    width:100%;
+    height:20px;
+    display:inline-block;
+    text-align:center;
+    background-color:#135;
+  }
+  
+  .type1 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#59b200;
+	color:white;
+  float:left;
+}
+  
+  .type2 {
+	width: 250px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#DB7093;
+	color:white;
+  float:left;
+}
+  
+  .type3 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#87CEEB;
+	color:white;
+  float:left;
+}
+  
+  .type4 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#CD853F;
+	color:white;
+  float:left;
+}
+  
+  .type5 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#FF69B4;
+	color:white;
+  float:left;
+}  
+  
+/*新段落*/
+
+  .img11 {
+    width:95%;
+    height:85%;
+    margin: 0 auto;
+  } 
+  
+  
+  .img12 {
+    width:95%;
+    height:80%;  
+    
+  } 
+ 
+  .btnpinterest {
+    width:50px;
+    height:50px;
+    margin: 0 auto;
+    background-color:#fff;
+  }
+  
+/*新段落*/
+
+  #tea2 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee2 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#20B2AA;
+
+  opacity:0.9;
+
+}
+  
+  #milk2 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#20B2AA;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk2 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+.words2 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea3 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee3 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#F08080;
+
+  opacity:0.9;
+
+}
+  
+  #milk3 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#F08080;
+  float:left;
+  background-image:url(https://goo.gl/e2c6dJ);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk3 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words3 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+
+  #tea {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DAA520;
+ 
+  opacity:0.9;
+
+}
+  
+  #milk {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#F0E68C;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea4 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee4 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#9ACD32;
+
+  opacity:0.9;
+
+}
+  
+ #milk4 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#9ACD32;
+  float:left;
+  background-image:url(https://goo.gl/5gKGYc);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk4 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words4 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/  
+
+
+
+
+ #tea5 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee5 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#87CEFA;
+
+  opacity:0.9;
+
+}
+  
+ #milk5 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#87CEFA;
+  float:left;
+  background-image:url(https://goo.gl/82eNzT);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk5 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words5 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+ 
+
+  #tea6 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee6 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#191970;
+
+  opacity:0.9;
+
+}
+  
+  #milk6 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#191970;
+  float:left;
+  background-image:url(https://goo.gl/G114ju);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk6 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words6 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+/*新段落*/  
+  
+
+  #tea7 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee7 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#DB7093;
+
+  opacity:0.9;
+
+}
+  
+  #milk7 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#DB7093;
+  float:left;
+  background-image:url(https://goo.gl/PtWKkq);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk7 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+ .words7 {
+    color:white;
+    opacity:1 !important ;
+  }
+     
+ /*新段落*/
+  
+ #tea8 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;    
+}
+
+ #coffee8 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  opacity:0.9;
+}
+  
+ #milk8 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  float:left;
+  background-image:url(https://goo.gl/CA82bd);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk8 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+ .words8 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+/*新段落*/
+  
+  footer{
+  width:100%;
+  height:100px;
+  background-color:#135;
+  text-align:center;
+}
+ 
+  .name {
+  color:#fff;
+  margin:20px 0 0 0 ;
+}
+
+   p6 > a {
+  color:orange;
+}
+  
+  .insidebox7 {
+    width:100%;
+    min-height:350px;
+    display:inline-block;
+    text-align:center;
+  }
+  
+  .form {
+     width:35%;
+     height:65%;
+     background-color:#135;
+     margin: 50px 0 50px 110px;
+    float:left;
+    }
+  
+  .form2 {
+     width:35%;
+     height:165px;
+     background-color:#135;
+     margin: 0 0 50px 110px;
+    float:left;
+      
+    }
+  
+  .input {
+      width:80%;
+      height:50px;
+      border:none;
+      border-bottom: 2px solid #ccc;
+      background-color:#B0E0E6;
+      margin-top:15px;
+      color:white;
+    
+    }   
+
+  .inputbut {
+    height:52px;
+    background-color:#00BFFF;
+    color:black;
+  }  
+  
+  .freecodecamp {
+    width:60px;
+    height:60px;
+    opacity:0.6;
+  }
+  
+  .divhrsec7 {
+  width:90%;
+  display:inline-block;
+  margin: 80px 0 0 0 ;
+}
+   
+
+
+
+}
+
+
+
+
+@media (min-width:500px) and (max-width: 969px) {
+
+ .header{
+       width:100%;
+       height:70px;
+       background-color:#135;
+       position:fixed;
+     }
+
+.logo{
+     display:none;
+     }
+
+.logo-text {
+     display:none;
+     }
+  
+.logo-text2 {
+         color:white;
+         font-family: Lobster, Monospace;
+         margin: 20px 0  0px 0; 
+         padding-bottom:10px;
+     }
+  
+.logo-text3 {
+         color: white;
+         font-family: Lobster, Monospace;
+         margin: 0px 0  0px 0; 
+     }
+
+ .center{
+       width:1263px;
+       height:70px;
+       margin:0 auto;
+     }
+
+ .link{
+       width:100%;
+       height:70px;
+       line-height:70px;
+       float:right;
+     }
+
+ .link > li {
+       width:120px;
+       text-align:center;
+       float:left;
+     }
+     
+ .link > li > a {
+       color:white;
+       display:block;
+     }
+
+  .link > li > a:hover, .link > .hand {
+       background-color:gray;
+     }
+  
+  
+/*段落二：*/
+  
+  #major1 {
+    width:100%;
+    background-color:#eee;
+    margin:0 auto;
+    position:
+  }
+  
+ .major1-intro {
+    width:100%;
+    min-height:400px;
+    background-color:#135;
+    margin:0px auto; 
+    text-align:center;
+  }
+  
+ .major1-intro2 {
+    width:80%;
+    height:150px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+
+ .major1-intro3 {
+    width:80%;
+    height:40px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+ 
+ .insidebox {
+    width:100%;
+    height:400px;
+    display:inline-block;
+    text-align:center;
+  }
+  
+ .boxp{
+    text-align:center;
+    width:100%;
+    height:100px;
+    diplay:inline-block;
+  }
+  
+ .boxp> p {
+    width:90%;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    letter-spacing:1px;
+    margin:30px 0 0px 50px;
+  }
+  
+ .photo1{
+  width:150px;
+  height:100px;
+  background-size:cover;
+  margin: 20px 0 0px 20px;
+  border-radius:80%;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  display:inline-block;
+}
+
+  
+/*新段落*/
+  
+  .insidebox2 {
+    background-color :#135;
+    width:40%;
+    height:350px;
+    margin: 5% 5% 5% 5%;
+    float:left;
+    margin-top:40px;    
+    diplay:block;
+  }
+  
+  .insidebox4 {
+    background-color :#135;
+    width:100%;
+    height:350px;
+    margin: 70px 0 0 0;
+    float:left;
+   
+    diplay:block;   
+  }
+  
+  .insidebox5 {
+    background-color :#135;
+    width:40%;
+    height:350px;
+    margin:0 auto;
+    float:left;
+    margin:10px  10px 10px  20px;    
+    diplay:block;
+  }
+  
+  .insidebox6 {
+    background-color :#135;
+    width:80%;
+    height:100px;
+    margin:10px 0 0 60px;
+    float:left;
+
+    diplay:block;
+  }
+  
+  .fig {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+  } 
+   
+  .fig12 {
+    width:95%;
+    height:300px;
+    background-color:#eee;
+    display:block;
+    margin: 0 auto;
+    margin: 20px 0 0 20px;
+    float:left; 
+  } 
+  
+  .fig3 {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+    float:left;
+  }
+  
+  .imgbox {
+    width:30%;
+    height:80%;
+    margin:25px 0 0 13px;
+    padding: 8px 0 0 0 ;
+    background-color:#ccc;
+    display:inline-block;
+    float:left;
+  }
+  
+  .figcap {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }  
+  
+  .figcap2 {
+    width:98.5%;
+    height:43px;
+    margin: 0 0 0 150px;
+  }
+  
+  .button {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+    background-color:#FFF;
+    
+  }
+  
+  .button2 {
+    width:100%
+    height:30px;
+    padding:15px 0  10px 0 ;
+    background-color:#eee;
+  }
+  
+  .button3 {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+     background-color:#135;
+     color:#fff;
+     text-align:left;
+     
+  }
+  
+  .button3 > a{
+    color:white;
+  }
+  
+  .button3 > a :hover {
+      Font-style:italic;
+  }
+  
+  .figcap2 {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }
+  
+  .insidebox3 {
+    width:100%;
+    height:20px;
+    display:inline-block;
+    text-align:center;
+    background-color:#135;
+  }
+  
+  .type1 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#59b200;
+	color:white;
+  float:left;
+}
+  
+  .type2 {
+	width: 250px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#DB7093;
+	color:white;
+  float:left;
+}
+  
+  .type3 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#87CEEB;
+	color:white;
+  float:left;
+}
+  
+  .type4 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#CD853F;
+	color:white;
+  float:left;
+}
+  
+  .type5 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#FF69B4;
+	color:white;
+  float:left;
+}  
+  
+/*新段落*/
+
+  .img11 {
+    width:95%;
+    height:85%;
+    margin: 0 auto;
+  } 
+  
+  
+  .img12 {
+    width:95%;
+    height:80%;  
+    
+  } 
+ 
+  .btnpinterest {
+    width:50px;
+    height:50px;
+    margin: 0 auto;
+    background-color:#fff;
+  }
+  
+/*新段落*/
+
+  #tea2 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee2 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#20B2AA;
+
+  opacity:0.9;
+
+}
+  
+  #milk2 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#20B2AA;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk2 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+.words2 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea3 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee3 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#F08080;
+
+  opacity:0.9;
+
+}
+  
+  #milk3 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#F08080;
+  float:left;
+  background-image:url(https://goo.gl/e2c6dJ);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk3 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words3 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+
+  #tea {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DAA520;
+ 
+  opacity:0.9;
+
+}
+  
+  #milk {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#F0E68C;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea4 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee4 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#9ACD32;
+
+  opacity:0.9;
+
+}
+  
+ #milk4 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#9ACD32;
+  float:left;
+  background-image:url(https://goo.gl/5gKGYc);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk4 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words4 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/  
+
+
+
+
+ #tea5 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee5 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#87CEFA;
+
+  opacity:0.9;
+
+}
+  
+ #milk5 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#87CEFA;
+  float:left;
+  background-image:url(https://goo.gl/82eNzT);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk5 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words5 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+ 
+
+  #tea6 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee6 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#191970;
+
+  opacity:0.9;
+
+}
+  
+  #milk6 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#191970;
+  float:left;
+  background-image:url(https://goo.gl/G114ju);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk6 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words6 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+/*新段落*/  
+  
+
+  #tea7 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee7 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#DB7093;
+
+  opacity:0.9;
+
+}
+  
+  #milk7 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#DB7093;
+  float:left;
+  background-image:url(https://goo.gl/PtWKkq);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk7 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+ .words7 {
+    color:white;
+    opacity:1 !important ;
+  }
+     
+ /*新段落*/
+  
+ #tea8 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;    
+}
+
+ #coffee8 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  opacity:0.9;
+}
+  
+ #milk8 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  float:left;
+  background-image:url(https://goo.gl/CA82bd);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk8 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+ .words8 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+/*新段落*/
+  
+  footer{
+  width:100%;
+  height:100px;
+  background-color:#135;
+  text-align:center;
+}
+ 
+  .name {
+  color:#fff;
+  margin:20px 0 0 0 ;
+}
+
+   p6 > a {
+  color:orange;
+}
+  
+  .insidebox7 {
+    width:100%;
+    min-height:350px;
+    display:inline-block;
+    text-align:center;
+  }
+  
+  .form {
+     width:90%;
+     height:65%;
+     background-color:#135;
+     margin: 50px 20px 50px 20px;
+    float:left;
+    }
+  
+  .form2 {
+     width:90%;
+     height:165px;
+     background-color:#135;
+     margin: 0 0 50px 20px;
+    float:left;
+      
+    }
+  
+  .input {
+      width:60%;
+      height:50px;
+      border:none;
+      border-bottom: 2px solid #ccc;
+      background-color:#B0E0E6;
+      margin-top:15px;
+      color:white;
+    
+    }   
+
+  .inputbut {
+    height:52px;
+    background-color:#00BFFF;
+    color:black;
+  }  
+  
+  .freecodecamp {
+    width:60px;
+    height:60px;
+    opacity:0.6;
+  }
+  
+  .divhrsec7 {
+  width:90%;
+  display:inline-block;
+  margin: 180px 0 0 0 ;
+}
+   
+
+
+
+}
+
+@media (max-width:599px) {
+
+ .header{
+       width:100%;
+       height:70px;
+       background-color:#000;
+       position:fixed;
+     }
+
+.logo{
+     display:none;
+     }
+
+.logo-text {
+     display:none;
+     }
+  
+.logo-text2 {
+         color:white;
+         font-family: Lobster, Monospace;
+         margin: 10px 0  0px 0; 
+         padding-bottom:10px;
+     }
+  
+  .divhrhd {
+  width:90%;
+  display:inline-block;
+  margin: 20px 0 0 0 ;
+}
+  
+.logo-text3 {
+         color: white;
+         font-family: Lobster, Monospace;
+         margin: 0px 0  0px 0; 
+     }
+
+ .center{
+       width:1263px;
+       height:70px;
+       margin:0 auto;
+     }
+
+ .link{
+       width:100%;
+       height:70px;
+       line-height:70px;
+       float:right;
+     }
+
+ .link > li {
+       width:120px;
+       text-align:center;
+       float:left;
+     }
+     
+ .link > li > a {
+       color:white;
+       display:block;
+     }
+
+  .link > li > a:hover, .link > .hand {
+       background-color:gray;
+     }
+  
+  
+/*段落二：*/
+  
+  #major1 {
+    width:100%;
+    background-color:#eee;
+    margin:0 auto;
+    position:
+  }
+  
+ .major1-intro {
+    width:100%;
+    min-height:400px;
+    background-color:#135;
+    margin:0px auto; 
+    text-align:center;
+  }
+  
+ .major1-intro2 {
+    width:80%;
+    height:150px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+
+ .major1-intro3 {
+    width:80%;
+    height:40px;
+    background-color:#eee;
+    margin:0px auto;
+  }
+ 
+ .insidebox {
+    width:100%;
+    height:400px;
+    display:inline-block;
+    text-align:center;
+    margin-top:80px;
+  }
+  
+ .boxp{
+    text-align:center;
+    width:100%;
+    height:100px;
+    diplay:inline-block;
+  }
+  
+ .boxp> p {
+    width:90%;
+    color:white;
+    text-align:center;
+    font-size:15px;
+    letter-spacing:1px;
+    margin:30px 0 20px 20px;
+  }
+  
+ .photo1{
+  width:150px;
+  height:100px;
+  background-size:cover;
+  margin: 20px 0 0px 20px;
+  border-radius:80%;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  display:inline-block;
+}
+
+  
+/*新段落*/
+  
+  .insidebox2 {
+    background-color :#135;
+    width:90%;
+    height:350px;
+    margin: 5% 5% 15% 5%;
+    float:left;
+    margin-top:40px;    
+    diplay:block;
+  }
+  
+  .insidebox4 {
+    background-color :#135;
+    width:97%;
+    min-height:750px;
+    margin: 80px 0 0 10px;
+    float:left;
+   
+    diplay:block;   
+  }
+  
+  .insidebox5 {
+    background-color :#135;
+    width:97%;
+    height:350px;
+    margin:0 auto;
+    float:left;
+    margin:10px  10px 10px  5px;    
+    diplay:block;
+  }
+  
+  .insidebox6 {
+    background-color :#135;
+    width:80%;
+    height:100px;
+    margin:10px 0 0 60px;
+    float:left;
+
+    diplay:block;
+  }
+  
+  .fig {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+  } 
+   
+  .fig12 {
+    width:98%;
+    min-height:300px;
+    background-color:#ccc;
+    display:block;
+    margin: 0 auto;
+    margin: 20px 0 0 0px;
+    float:left; 
+  } 
+  
+  .fig3 {
+    width:98%;
+    height:350px;
+    margin: 0 auto;
+    background-color:#ccc;
+    float:left;
+  }
+  
+  .imgbox {
+    width:90%;
+    height:80%;
+    margin:25px 0 0 13px;
+    padding: 8px 0 0 0 ;
+    background-color:#ccc;
+    display:inline-block;
+    float:left;
+  }
+  
+  .figcap {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }  
+  
+  .figcap2 {
+    width:98.5%;
+    height:43px;
+    margin: 0 0 0 150px;
+  }
+  
+  .button {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+    background-color:#FFF;
+    
+  }
+  
+  .button2 {
+    width:100%
+    height:30px;
+    padding:15px 0  10px 0 ;
+    background-color:#eee;
+  }
+  
+  .button3 {
+    width:100%
+    height:30px;
+    padding:10px  0 ;
+     background-color:#135;
+     color:#fff;
+     text-align:left;
+     
+  }
+  
+  .button3 > a{
+    color:white;
+    
+  }
+  
+  .button3 > a :hover {
+      Font-style:italic;
+  }
+  
+  .figcap2 {
+    width:98%;
+    height:45px;
+    margin: 0 auto;
+  }
+  
+  .insidebox3 {
+    width:100%;
+    height:20px;
+    display:inline-block;
+    text-align:center;
+    background-color:#135;
+  }
+  
+  .type1 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#59b200;
+	color:white;
+  float:left;
+}
+  
+  .type2 {
+	width: 250px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#DB7093;
+	color:white;
+  float:left;
+}
+  
+  .type3 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#87CEEB;
+	color:white;
+  float:left;
+}
+  
+  .type4 {
+	width: 230px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:#CD853F;
+	color:white;
+  float:left;
+}
+  
+  .type5 {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+	background-color:	#FF69B4;
+	color:white;
+  float:left;
+}  
+  
+/*新段落*/
+
+  .img11 {
+    width:95%;
+    height:85%;
+    margin: 0 auto;
+  } 
+  
+  
+  .img12 {
+    width:95%;
+    height:80%;  
+    
+  } 
+ 
+  .btnpinterest {
+    width:50px;
+    height:50px;
+    margin: 0 auto;
+    background-color:#fff;
+  }
+  
+/*新段落*/
+
+  #tea2 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee2 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#20B2AA;
+
+  opacity:0.9;
+
+}
+  
+  #milk2 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#20B2AA;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk2 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+.words2 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea3 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee3 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#F08080;
+
+  opacity:0.9;
+
+}
+  
+  #milk3 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#F08080;
+  float:left;
+  background-image:url(https://goo.gl/e2c6dJ);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk3 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words3 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+
+  #tea {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DAA520;
+ 
+  opacity:0.9;
+
+}
+  
+  #milk {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#F0E68C;
+  float:left;
+  background-image:url(https://goo.gl/S91WG5);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+  
+/*新段落*/
+
+
+
+  #tea4 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee4 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#9ACD32;
+
+  opacity:0.9;
+
+}
+  
+ #milk4 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#9ACD32;
+  float:left;
+  background-image:url(https://goo.gl/5gKGYc);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk4 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words4 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/  
+
+
+
+
+ #tea5 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+ #coffee5 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#87CEFA;
+
+  opacity:0.9;
+
+}
+  
+ #milk5 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#87CEFA;
+  float:left;
+  background-image:url(https://goo.gl/82eNzT);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk5 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words5 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+  
+/*新段落*/
+ 
+
+  #tea6 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee6 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#191970;
+
+  opacity:0.9;
+
+}
+  
+  #milk6 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:	#191970;
+  float:left;
+  background-image:url(https://goo.gl/G114ju);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk6 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+  .words6 {
+    color:white;
+    opacity:1 !important ;
+  }
+   
+/*新段落*/  
+  
+
+  #tea7 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;
+    
+}
+
+  #coffee7 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:	#DB7093;
+
+  opacity:0.9;
+
+}
+  
+  #milk7 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:#DB7093;
+  float:left;
+  background-image:url(https://goo.gl/PtWKkq);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+  #milk7 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+
+ .words7 {
+    color:white;
+    opacity:1 !important ;
+  }
+     
+ /*新段落*/
+  
+ #tea8 {
+  width:98%;
+  height:85%;
+    margin: 0 auto;
+    background-color:#eee;    
+}
+
+ #coffee8 {
+  width:100%;
+  height:100%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  opacity:0.9;
+}
+  
+ #milk8 {
+  width:100%;
+  height:85%;
+  margin: 0 0 10px 0;
+  background-color:		#DC143C;
+  float:left;
+  background-image:url(https://goo.gl/CA82bd);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ #milk8 >  a :hover {
+  background-image:red;
+  opacity:0;
+}
+  
+ .words8 {
+    color:white;
+    opacity:1 !important ;
+  }
+  
+/*新段落*/
+  
+  footer{
+  width:100%;
+  height:100px;
+  background-color:#000;
+  text-align:center;
+}
+ 
+  .name {
+  color:#fff;
+  margin:20px 0 0 0 ;
+}
+
+   p6 > a {
+  color:orange;
+}
+  
+  .insidebox7 {
+    width:100%;
+    min-height:350px;
+    display:inline-block;
+    text-align:center;
+  }
+  
+  .form {
+     width:90%;
+     height:65%;
+     background-color:#135;
+     margin: 50px 20px 50px 20px;
+    float:left;
+    }
+  
+  .form2 {
+     width:90%;
+     height:165px;
+     background-color:#135;
+     margin: 0 0 90px 20px;
+    float:left;
+      
+    }
+  
+  .input {
+      width:60%;
+      height:50px;
+      border:none;
+      border-bottom: 2px solid #ccc;
+      background-color:#B0E0E6;
+      margin-top:15px;
+      color:white;
+    
+    }   
+
+  .inputbut {
+    height:52px;
+    background-color:#00BFFF;
+    color:black;
+  }  
+  
+  .freecodecamp {
+    width:60px;
+    height:60px;
+    opacity:0.6;
+  }
+  
+  .divhrsec7 {
+  width:90%;
+  display:inline-block;
+  margin: 180px 0 0 0 ;
+}
+  
+  
+  .face {
+    display:none;
+  }
+
+  
+  .logo-text3 {
+    font-size:26px;
+  }
+  
+
+
+
+}
+
+
