@@ -1,0 +1,120 @@
+@charset"utf-8";
+
+.headline {
+	max-width: 6.4rem;
+    margin: 0 auto;
+    padding: .09rem 0 0 0;   
+    position: relative;
+}
+
+.headline > h2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color:#eee;
+}
+
+
+.headline > h3 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color:#eee;
+}
+
+/*就此部分再回頭補充媒體查詢*/
+
+
+.list {
+	font-size: .16rem;
+	color: #666;
+	max-width: 6.4rem;
+	margin: .2rem auto;
+	padding: 0 .2rem;
+}
+
+.list > section > h2 {
+	font-size: .2rem;
+	border-bottom: .01rem dashed #999;
+	padding: 0 0 .2rem 0,
+}
+
+
+/*新段落*/
+
+.about > section > p {
+	line-height: 2;
+	margin: .2rem 0;
+}
+
+.about > section > address {
+	font-style:normal;
+	margin:  .2rem 0;
+	line-height: 1.6;
+}
+
+
+/*新段落*/
+
+
+.information > h2 {
+	font-size: .2rem;
+	border-bottom: .01rem dashed #999;
+	padding: 0 0 .5rem 0,
+}
+
+.information > figure:after {      /*重要技巧：直接到上一層(本體)去清理浮動！！，同時達到自適應*/
+	content:"." ;      
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.information > figure {
+    border: 1px solid #eee;
+	margin: .15rem 0 0 0;
+	position: relative;
+}
+
+
+.information > figure > img {
+    width: 50%;
+    float: left;
+}
+
+.informaiton > figcaption {
+    width: 50%;
+    float: right;
+}
+
+.title {
+	border:none;
+	padding: 0 0 0  0.5rem 0;
+	display: -webkit-box;  /*以下為谷歌的私有屬性:避免螢幕在320以下字都擠在一起*/
+	overflow: hidden;
+	-webkit-line-clamp: 1;  /*不得大於1行*/
+	-webkit-box-orient:vertical;    
+}
+
+.small_title {
+    font-weight: normal;
+    padding: 0;
+    display: -webkit-box;  /*以下為谷歌的私有屬性:避免螢幕在320以下字都擠在一起*/
+	overflow: hidden;
+	-webkit-line-clamp: 2;  /*不得大於2行*/
+	-webkit-box-orient:vertical;    
+}
+
+
+.price {
+	color:#f60;
+	position: absolute;
+	bottom: 0;
+	left:50%;
+}
+
+.price > strong {
+	font-size: .26rem;
+}

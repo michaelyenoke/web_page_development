@@ -1,0 +1,211 @@
+
+@charset "utf-8";
+
+.link  > li > a:hover, .link  > li.active a {   /*設定鼠標*/ /*保持選定鼠標狀態*/ 
+	background-color: black;  /*設定鼠標*/	
+}
+
+.headline {
+	width: 1920px;  /*不出現滾動條*/
+	height: 300px;
+}
+
+.h-center {
+	width: 1263px;
+	height: 300px;
+    margin: 0 auto;
+}
+
+hgroup {
+	padding: 100px 0 0 50px;
+}
+
+hgroup > h2 {
+	color:#eee;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+
+hgroup > h3 {
+	color:#eee;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.hg2 {
+     padding: 0 ;
+     margin:  0;
+}
+
+
+
+.list {
+	background-color: white;
+}  
+
+.container {
+	width:1263px;
+	/*height: 1200px; 讓網頁自己調整 */
+	margin: 30px auto;
+}
+
+
+.ticket{
+	color: #666;
+	font-size: 20px;
+}
+
+.ticket > form > h2 {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #999;
+	padding:  0 0 20px 0;
+}
+
+.tickettype {
+	margin: .2rem 0 .2rem 0;
+}
+
+.tickettype > p > mark {
+	color:#fff;
+	background-color: #458b00;
+	padding: .05rem .08rem;
+	border-radius: .04rem;
+	margin: 0 .01rem 0 .16rem;
+}
+
+.tickettype > p {
+	margin: 0.1rem 0;
+}
+
+.tickettype > p > label {
+	display: block;
+	margin: 0 0 0.5rem 0;
+	font-size: .16rem;
+}
+
+
+input {
+	width: 97%;
+	height: .2rem;
+	border: 1px solid #ccc;
+	background-color:#fff;
+	border-radius: .04rem;
+	padding: .05rem;
+	color: #666;
+	
+}
+
+.ticketright > p > label {
+    display: block;
+    margin: 0 0 .05rem 0;
+}
+
+.ticketleft > p > label {
+   display: block;
+    margin: 0 0 .05rem 0;
+}
+
+
+
+
+.ticketsubmit {
+	display: block;
+	width: 30%;
+	border-radius: .04rem;
+	background-color: #f60;
+	color: #fff;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	padding: .1rem;
+	margin: 0 auto;
+}
+
+
+
+
+/*新段落*/
+
+
+.new > h2 {
+	border-bottom: .1rem dashed #999;
+	padding:  0 0 .2rem 0;
+}
+
+.new > ul {
+	margin: .2rem 0 0 0;
+}
+
+.new > ul > li {
+	display: inline-block;
+	padding:  5px 5px 10px 10px;
+}
+
+.new > ul > li:nth-child(2) {
+	background-color: #458b00;
+	border-radius: 4px;
+	color: white;
+}
+
+.table {
+	padding: 20px 0 0 0;
+	width: 100%;
+	border:  1px solid #ddd;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.table > tr > th {
+	border:  1px solid #ddd;
+}
+
+.table > thead > tr > th {
+    height: 50px;
+	line-height: 50px;
+	border-bottom:   1px solid #ddd;
+}
+
+.table > tbody > tr > td {
+	height: 50px;
+	line-height: 50px;
+	border-bottom:  1px solid #ddd;
+}
+
+.table > tfoot > tr > td {
+	height: 50px;
+	line-height: 50px;
+	border-bottom:  1px solid #ddd;
+}
+
+.table > tbody > tr:nth-child(2n) {     /*選取雙數反差呈現*/
+    background-color: #eee;
+}
+
+.table > tbody > tr:hover {     /*選取雙數反差呈現*/
+    background-color: #ccc;
+}
+
+.trprice {
+	color: #f60;
+}
+
+.tablemore{   
+	color: #666 ;
+}
+
+.tbodyreserve {
+	display: inline-block;    /*使其自動居中*/
+	width: .6rem;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 4px;
+	background-color: #f60;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+/*就此部分再回頭補充媒體查詢*/
